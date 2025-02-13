@@ -1,0 +1,5676 @@
+body {background: #fff !important;}
+
+.contact-us {
+    background-color: #3c4981;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2.5em 0;
+}
+
+.contact-us h3 {
+    margin: 1em 0;
+}
+
+.contact-us h3, .contact-us a {
+    color: #FFFFFF;
+    
+}
+
+.contact-us hr {
+    border: 3px solid #ffd378;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 20%;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.contact-us p  {    
+    color: #FFFFFF;
+    text-align: center;
+    display: inline;
+    margin: 0;
+}
+
+.card-icon {
+    width: auto;
+}
+
+.usa-banner{
+    /*position: fixed;*/
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    
+    }
+    
+    
+    #my_video_banner {
+        position: relative;
+        height:580px;
+        width:100%;
+        overflow: hidden;
+    }
+    #my_video_videobcg {
+        /*position: absolute;*/
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        height:auto;
+        width:auto;
+        z-index: -100;
+    }
+    
+    .tabs ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+    }
+    
+    .student-faq-page h4{
+      font-size: 24px;
+        font-family: 'LinBiolinum_RB'!important;
+        color: #000;
+    
+    }
+    .hide_label{
+      display: none;
+    }
+    .flex-direction-nav a:before {
+        font-family: "flexslider-icon";
+        font-size: 40px;
+        display: inline-block;
+        content: '\f001';
+        color: #f5c22f!important;
+        text-shadow: 1px 1px 0 rgba(255,255,255,0.3);
+    }
+    
+    .flex-control-paging li a.flex-active {
+        background: #f5c22f!important;
+        cursor: default;
+    }
+    
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+    }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+    
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+    }
+    
+    .tooltip:hover #myModal {
+      display: block;
+    }
+    
+    .Sub_title{
+       font-size: 32px;
+        font-family: 'Linux Biolinum O' !important;
+        font-weight: bold;
+        color: #3c4981;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    
+    .modal1, .modal{
+       max-width: 100%;
+        font-size: 21px;
+        font-family: 'Linux Biolinum O' !important;
+        line-height: 35px;
+        margin: 0 0 16px 0;
+        color: #000000;
+    }
+    
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    
+    /* Modal Content */
+    .modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      border-radius: 15px;
+    }
+    
+    /* The Close Button */
+    .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    /* The Modal (background) */
+    .modal1 {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    
+    /* Modal Content */
+    .modal-content1 {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      border-radius: 15px;
+    }
+    
+    /* The Close Button */
+    .close1 {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    
+    .close1:hover,
+    .close1:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    /* The Modal (background) */
+    .modal3 {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 9999; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    
+    /* Modal Content */
+    .modal-content3 {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      border-radius: 15px;
+    }
+    
+    /* The Close Button */
+    .close3 {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    
+    .close3:hover,
+    .close3:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    
+    .qulification-button{
+        background: transparent;
+        border: none;
+        text-decoration: underline;
+    }
+    
+    .usa-nav__secondary {
+      display: none;
+    }
+    
+    p {
+      font-size:1.2em;
+      /* font-size: 21px; vr */
+      font-family: 'Linux Biolinum O';
+      line-height: 35px;
+      margin: 0 0 25px 0;
+      color: #000000;
+    }
+
+    .user-profile {
+      float: right;
+      vertical-align: bottom;
+      position: relative;
+      top: 45px;
+    }
+    
+    .user-profile a {
+      color: #3C4981;
+      text-decoration: none;
+    }
+
+    .usa-header--extended {
+      position: relative;
+    }
+    
+    #extended-logo {
+      display: inline-block;
+      max-width: initial;
+      width: 90px;
+    }
+    
+    .usa-section {
+      padding-bottom: 0rem !important;
+      padding-top: 2rem !important;
+    }
+    
+    .usa-my-header {
+      background: #FFFFFF;
+      /*position: fixed;*/
+      z-index: 1;
+      /*top: 22px;*/
+      width:100%;
+    }
+    #main-content{
+      margin-top: -95px;
+    }
+    .usa-my-header #extended-logo {
+      margin: 0px;
+      min-height: 66px;
+    }
+    
+    .usa-my-header .usa-logo a {
+      display: inline-block;
+      height: auto;
+      position: absolute;
+      z-index: 9999 !important;
+    }
+    
+    .usa-my-header .usa-logo a img {
+      width: 115px;
+      z-index: 9999 !important;
+    }
+    /*.flex-active-slide{
+      z-index: 0!important;
+    }*/
+    
+    .usa-my-header .elite-img {
+      vertical-align: top;
+      padding-top: 10px;
+      padding-left: 10px;
+      display: none;
+    }
+    
+    .usa-my-header .elite-img img {
+      width: 130px;
+    }
+    
+    .usa-my-header .social-icon-wrapper {
+      margin: 15px 0;
+    }
+    
+    .usa-my-header .social-icon-wrapper a {
+      display: inline-block;
+      height: 100%;
+      line-height: 16px;
+    }
+    
+    .usa-my-header .social-icon-wrapper img {
+      display: inline-block;
+      width: 35px;
+      margin: 0 5px;
+    }
+    
+    .usa-header-social {
+      position: absolute;
+      top: 11px;
+      margin-left: 100px;
+    }
+    
+    .usa-header-social img {
+      width: 45px;
+      margin: 0 5px;
+    }
+    
+    .usa-btn-menu {
+      float: right;
+      margin: 8px 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      margin-left: 20px;
+      background-color: #3c4981 !important;
+    }
+    
+    .usa-btn-menu span {
+      width: 22px;
+      height: 3px;
+      background: #fff;
+      margin-bottom: 4px;
+      border-radius: 5px;
+    }
+    
+    .usa-btn-menu em {
+      font-size: 11px;
+      font-style: normal;
+      font-weight: normal;
+      color: #fff;
+      font-family: 'Linux Biolinum O' !important;
+    }
+    
+    .usa-logo {
+      margin: 20px 0;
+    }
+    
+    .usa-logo .usa-logo-img {
+      width: 95px;
+    }
+    
+    .usa-nav__secondary {
+      margin: 20px 0;
+    }
+    
+    .usa-hero__caption {
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+      max-width: 600px;
+    }
+    
+    .usa-hero__caption h1 {
+      font-size: 48px;
+      color: #3c4981;
+      text-transform: uppercase;
+      margin: 0;
+      line-height: 55px;
+      font-family: 'Linux Biolinum O' !important;
+    }
+    
+    .usa-hero__caption h2 {
+      font-size: 38px;
+      color: #3c4981;
+      text-transform: uppercase;
+      margin-bottom: 0;
+      font-family: 'Linux Biolinum O' !important;
+      margin:18px 0 0 0;
+    }
+    
+    .usa-hero__caption p {
+      color: #4c4c4c;
+      font-weight: bold;
+      margin: 0;
+      margin-top: 20px;
+      width: 450px;
+      font-family: 'Linux Biolinum O' !important;
+    }
+    
+    .usa-hero__caption .usa-button-float {
+      margin: 20px 0;
+    }
+    
+    .usa-hero__caption .usa-button-float a {
+      border-radius: 0;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 18px;
+      color: #000;
+      background: #f5c22f;
+      font-family: 'Linux Biolinum O' !important;
+      padding: 15px 20px;
+    }
+    
+    .usa-hero__caption .usa-button-float .usa-btn-signup {
+      background: #3c4981;
+      color: #FFF;
+      font-size: 18px;
+      min-width: 160px;
+       font-family: 'Linux Biolinum O' !important;
+      padding: 15px 20px;
+    }
+    
+    .usa-hero__caption .usa-button-float .usa-btn-career-path {
+      background: #f5c22f;
+      color: #000;
+    }
+    
+    .section-career-events {
+      padding-bottom: 0;
+    }
+    
+    .section-career-events .grid-row.grid-gap > * {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+    
+    .section-career-events .grid-row.grid-gap > * .career-events button {
+      background-color: #4C4C4C;
+      width: 100%;
+      border-radius: 0;
+      font-size: 26px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      padding: 16px;
+      text-align: left;
+      font-family: 'Linux Biolinum O' !important;
+    }
+    
+    .section-career-events .grid-row.grid-gap > * .career-info.no-padding {
+      padding: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    
+    /*.section-career-events .grid-row.grid-gap > * .career-info.assault-team {
+      min-height: 306px;
+    }*/
+    
+    .section-career-events .grid-row.grid-gap > * .career-info.assault-team h4 {
+      font-size: 24px;
+      margin-top: 0;
+      color: #f5c22f;
+      font-family: 'Linux Biolinum O' !important;
+      font-family: 'Linux Biolinum O' !important;
+      -webkit-margin-before: 0em;
+              margin-top: 0em;
+      -webkit-margin-after: 0em !important;
+              margin-bottom: 0em !important;
+              padding-bottom: 10px;
+    }
+    
+    .section-career-events .grid-row.grid-gap > * .career-info.assault-team .info {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    
+    .section-career-events .grid-row.grid-gap > * .career-info.assault-team .usa-hr-email {
+      display: inline-block;
+        vertical-align: middle;
+        position: absolute;
+        right: -20px !important;
+        font-size: 20px;
+        margin-right: 0;
+    }
+    
+    .section-career-events .grid-row.grid-gap > * .career-info.assault-team button {
+      display: inline-block;
+      border-radius: 0;
+      padding: 13px 20px;
+      text-transform: uppercase;
+      color: #000;
+      background: #f5c22f;
+      font-size: 14px;
+      font-family: 'Linux Biolinum O' !important;
+    }
+    
+    .section-career-events .grid-row.grid-gap > * .career-info {
+      padding: 10px;
+      background: #3c4981;
+      margin-top: 10px;
+      -webkit-box-shadow: inset 1px -20px 11px 0px #00000045;
+              box-shadow: inset 1px -20px 11px 0px #00000045;
+      min-height: 500px !important;
+    }
+    
+    .section-career-events .grid-row.grid-gap > * .career-info .usa-left-image {
+        width: 382px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 36px;
+        /*background-image: url(/profiles/cusssd8_gov/themes/custom/drupal2/img/check-finger-print.png);*/
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .section-career-events .grid-row.grid-gap > * .career-info .usa-opening-links {
+      display: inline-block;
+      vertical-align: top;
+      padding-right: 20px;
+      padding-bottom: 20px;
+    }
+    
+    .section-career-events .grid-row.grid-gap > * .career-info .usa-opening-links ul {
+      list-style: disc;
+      padding-left: 0;
+      color: white;
+    }
+    
+    /*.section-career-events .grid-row.grid-gap > * .career-info .usa-opening-links ul li {
+      line-height: 10px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      text-align: left;
+    }*/
+    
+    /*.section-career-events .grid-row.grid-gap > * .career-info .usa-opening-links ul li::before {
+      content: '-';
+      text-indent: -5px;
+      color: white;
+      padding: 5px 10px;
+      font-size: 20px;
+      line-height: 18px;
+    }*/
+    
+    .section-career-events .grid-row.grid-gap > * .career-info .usa-opening-links ul li a {
+      color: #fff;
+      text-decoration: none;
+     /* font-weight: bold;*/
+      font-family: 'Linux Biolinum O' !important;
+      font-size: 21px;
+      line-height: 37px;
+    }
+    
+    .section-career-events .grid-row.grid-gap > * .career-info .usa-opening-links .see-more {
+      padding-left: 0px;
+      padding-bottom: 0px;
+    }
+    
+    .full-height {
+      min-height: calc(100vh - 170px);
+      padding-top: 0;
+    }
+    
+    .see-more{
+          position: absolute;
+        bottom: 20px;
+    }
+    
+    .section-career-events .grid-row.grid-gap > * .career-info .usa-opening-links .see-more{
+      position: absolute;
+        bottom: 20px;
+    }
+    
+    .full-height .grid-row {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      min-height: inherit;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+    
+    .immediate-openings h1 {
+      font-family: sans-serif;
+      font-weight: bold;
+    }
+    
+    .immediate-openings .opening-flexbox {
+      margin: 0 auto;
+      display: table;
+      max-width: 810px;
+    }
+    
+    .immediate-openings .opening-flexbox .openings-card:nth-child(4n - 1) {
+      background: #3c4981;
+    }
+    
+    .immediate-openings .opening-flexbox .openings-card {
+      background: #3c4981;
+      text-align: center;
+      position: relative;
+      padding: 25px 20px;
+      color: #ffffff;
+      font-family: 'Linux Biolinum O' !important;
+      min-width: 250px;
+      max-width: 250px;
+      min-height: 130px;
+      max-height: 130px;
+      margin: 10px;
+      display: inline-block;
+    }
+    
+    .immediate-openings .opening-flexbox .openings-card a {
+      display: block;
+      height: 100%;
+    }
+    
+    .immediate-openings .opening-flexbox .openings-card h2 {
+      font-size: 14px;
+      margin: 0;
+      padding-bottom: 15px;
+    }
+    
+    .immediate-openings .opening-flexbox .openings-card .openings-wrapper-link {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    
+    .immediate-openings .opening-flexbox .openings-card .apply-jobs {
+      position: relative;
+      z-index: 1;
+      background-color: #f5c22f;
+      display: inline-block;
+      padding: 6px 20px;
+      color: #000;
+      font-family: 'Linux Biolinum O' !important;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 11px;
+    }
+    
+    .usa-job-bg {
+      background: #3c4981;
+    }
+    
+    .usa-job-bg .grid-container .grid-row > * {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+    
+    .find-usa-jobs {
+      background: #3c4981;
+      padding: 20px 0;
+      margin: 20px 0;
+    }
+    
+    .find-usa-jobs .apply-usa-job button {
+      background: #f5c22f;
+      border-radius: 0;
+      padding: 15px 20px;
+      font-size: 18px;
+      color: #3c4981;
+      margin-right: 0px;
+      width: auto;
+      font-family: 'Linux Biolinum O' !important;
+    
+        font-weight: bold;
+    }
+    
+    .find-usa-jobs .nearest-job {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      padding: 0;
+    }
+    
+    .find-usa-jobs .nearest-job h2 {
+      margin: 0;
+      padding-right: 20px;
+      color: #fff;
+      font-family: 'Linux Biolinum O' !important;
+      font-weight: 600;
+    }
+    
+    .find-usa-jobs .nearest-job form input {
+      padding: 10px;
+      width: 300px;
+      background: #fff;
+      border-color: #c2c4d5;
+      font-family: sans-serif;
+      font-weight: bold;
+      color: #3a3a3f;
+      border: 1px solid transparent;
+      font-size: 16px;
+      height: 46px;
+      font-family: 'Linux Biolinum O' !important;
+      font-weight: bold;
+    }
+    
+    .find-usa-jobs .nearest-job form button {
+    
+      line-height: 18px;
+      font-family: 'Linux Biolinum O' !important;
+      height: 46px;
+      margin-right: 10px;
+    font-weight: bold;
+    
+      background: #f5c22f;
+    /*border: 2px solid #f5c22f;*/
+    color: #3c4981;
+    font-size: 18px;
+    padding: 15px 20px;
+     position: relative;
+        bottom: -3px;
+    }
+    
+    .usa-menu-wrapper {
+      position: absolute;
+      min-height: 500px;
+      min-height: 500px;
+      background: white;
+      display: none;
+    }
+    
+    .usa-search-wrapper {
+      position: absolute;
+      min-height: 300px;
+      width: 100%;
+      top: 74px;
+      height: 100vh;
+      left: 0;
+      bottom: 0;
+      background: #fff;
+      opacity: 0.8;
+      display: none;
+    }
+    
+    .usa-search-wrapper form {
+      display: table;
+      margin: 50px auto 0 auto;
+    }
+    
+    .usa-search-wrapper form input {
+      background-color: #e3e3e3;
+      border: none;
+      width: 350px;
+      padding: 12px;
+    }
+    
+    .usa-search-wrapper form button {
+      background: #f4c140;
+      border-radius: 0;
+      padding: 15px 30px;
+      text-transform: uppercase;
+      color: #000;
+    }
+    
+    .footer-links {
+      display: block;
+      min-height: 45px;
+    }
+    
+    .footer-links ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .footer-links ul li {
+      display: inline-block;
+      padding: 0 7px 0 7px;
+      border-right: 2px solid #fff;
+      line-height: 12px;
+    }
+    
+    .footer-links ul li a {
+      display: inline-block;
+      padding: 0;
+      color: #fff;
+      font-size: 11px;
+      line-height: 13px;
+      text-transform: uppercase;
+      font-family: 'Linux Biolinum O';
+    }
+    
+    .usa-footer {
+      padding: 0px 0;
+        min-height: 150PX;
+        background-color: #666666;
+    }
+    
+    .usa-footer .footer-flex {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+    
+    .usa-footer .footer-flex .footer-logo {
+      margin-right: 20px;
+    }
+    
+    .usa-footer .footer-flex .footer-logo img {
+      min-width: 100px;
+      width: 100px;
+    }
+    
+    .usa-footer .copyright-content p {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    
+    .usa-footer .copyright-content p span {
+      display: inline-block;
+      /* height: 25px; */
+      vertical-align: middle;
+      margin-right: 10px;
+      color: #fff;
+      font-family: 'Linux Biolinum O' !important;
+      font-size: 13px;
+      position: relative;
+      top: 6px;
+    }
+    
+    .flex-viewport ul li {
+      position: relative;
+    }
+    
+    .flex-caption {
+      width: auto;
+      padding: 2%;
+      left: auto;
+      right: auto;
+      background: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+      font-size: 14px;
+      line-height: 18px;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+    }
+    
+    li.css a {
+      border-radius: 0;
+    }
+    
+    /*#menu-wrapper {
+          max-width: 73.8rem;
+        margin-right: 32px;
+         float: right;
+        right: 96px;
+    }*/
+    
+    #menu-wrapper {
+          max-width: 100%;
+        /*margin-right: 32px;*/
+        /* float: right; */
+        /*right: 96px;*/
+        left: 0;
+        right: 0;
+    }
+    
+    #menu-wrapper .all-menu {
+      min-height: inherit;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    
+    .usa-FAQ ul li {
+      max-width: 100%;
+      font-size: 22px;
+      font-family: 'Linux Biolinum O' !important;
+      line-height: 35px;
+      margin: 0 0 16px 0;
+      color: #000000;
+    }
+    
+    #menu-wrapper .all-menu aside {
+      max-width: 375px;
+      background: #3c4981;
+      min-height: inherit;
+      padding: 50px 10px 10px 80px;
+    
+      /*padding: 50px 20px 20px 122px;*/
+      width: 100%;
+    }
+    
+    #menu-wrapper .all-menu aside h3 {
+      color: #f5c22f;
+      margin: 0;
+      font-size: 15px;
+      text-transform: uppercase;
+      font-family: 'Linux Biolinum O' !important;
+      font-weight: 600;
+      min-height: 64px;
+    }
+    
+    #menu-wrapper .all-menu aside h2 {
+      color: #f5c22f;
+      margin: 0;
+      font-size: 15px;
+      text-transform: uppercase;
+      font-family: 'Linux Biolinum O' !important;
+      font-weight: 600;
+      min-height: 64px;
+    }
+    
+    #menu-wrapper .all-menu aside ul {
+      list-style-type: none;
+      padding-left: 0;
+      color: #fff;
+      font-size: 12px;
+      line-height: 20px;
+    }
+    
+    #menu-wrapper .all-menu aside ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-family: 'Linux Biolinum O' !important;
+      font-weight: 600;
+      line-height: 30px;
+        font-size: 16px;
+    }
+    
+    #menu-wrapper .all-menu aside ul li a:hover {
+      text-decoration: underline;
+    }
+    
+    .section-menu {
+      padding: 30px 30px 30px 25px;
+      width: 100%;
+      background: #f5f5f5;
+    }
+    
+    .section-menu .top-section-menu {
+      float: left;
+      list-style: none;
+      margin-top: 0;
+      padding-left: 0;
+      width: 100%;
+          margin-top: 17px;
+    }
+    
+    .section-menu .top-section-menu li {
+      float: left;
+    }
+    
+    .section-menu .top-section-menu li a {
+      padding: 0 10px;
+      font-size: 14px;
+      font-family: 'Linux Biolinum O' !important;
+      font-weight: 700;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #000;
+    }
+    
+    .section-menu .top-section-menu li a:hover {
+      color: #3c4981;
+      text-decoration: underline;
+    }
+    
+    .section-menu .top-section-menu li a.active {
+      color: #3c4981;
+    }
+    
+    .menu-card figure.active {
+      display: inline-block;
+      margin: 20px 20px 20px 10px;
+    }
+    
+    .menu-card figure.active a {
+      text-decoration: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: stretch;
+          -ms-flex-align: stretch;
+              align-items: stretch;
+      height: 100%;
+      width: 100%;
+      -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.2);
+    }
+    
+    .menu-card figure.active a .menu-image {
+    
+      background: #f5c22f;
+      min-width: 108px;
+        min-height: 106px;
+        height: 108px;
+        padding: 0;
+    }
+    
+    .menu-card figure.active a .menu-image img {
+    
+       position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .mainmenu_innerimg{
+     width: 108px
+    }
+    
+    .menu-card figure.active a .menu-label {
+      background: #fff;
+      padding: 10px;
+      color: #000;
+      font-size: 14px;
+      min-width: 166px;
+      max-width: 166px;
+      min-height: inherit;
+    }
+    
+    .menu-card figure.active a .menu-label p {
+     position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: 'Linux Biolinum O' !important;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0;
+    }
+    
+    .menu-card figure {
+      display: inline-block;
+      margin: 20px 20px 20px 10px;
+    }
+    
+    .menu-card figure a {
+      text-decoration: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: stretch;
+          -ms-flex-align: stretch;
+              align-items: stretch;
+      height: 100%;
+      width: 100%;
+    }
+    
+    .menu-card figure a .menu-image {
+      /*min-width: 121.19px;
+        min-height: 121.19px;*/
+        min-width: 108px;
+        min-height: 106px;
+        height: 108px;
+        padding: 0;
+      background: #8a8a8a;
+    }
+    
+    .menu-card figure a .menu-image img {
+     position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .menu-card figure a .menu-label {
+      background: #cfcfcf;
+      padding: 10px;
+      color: #000;
+      font-size: 14px;
+      min-width: 166px;
+        max-width: 166px;
+      min-height: inherit;
+    }
+    
+    .menu-card figure a .menu-label p {
+      position: relative;
+      top: 50%;
+        transform: translateY(-50%);
+      font-family: 'Linux Biolinum O' !important;
+      font-size: 16px;
+        line-height: 26px;
+        margin: 0;
+    }
+    
+    .pt-0 {
+      padding-top: 0 !important;
+    }
+    
+    .pt-10 {
+      padding-top: 10px;
+    }
+    
+    .align-social-icon {
+      float: right;
+    }
+    
+    .align-social-icon .flex-social-icon {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+    }
+    
+    .max-1000 {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    
+    .max-1000 p {
+      font-family: 'Linux Biolinum O' !important;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    
+    .post-page {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    
+    .post-page h1 {
+      font-family: sans-serif;
+      font-weight: bold;
+    }
+    
+    .post-page p {
+      font-family: 'Linux Biolinum O' !important;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    
+    .post-page .inline-block {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin: 20px 0;
+    }
+    
+    .post-page .inline-block .image-wrapper {
+      min-width: 300px;
+      max-width: 300px;
+    }
+    
+    .post-page .btn-apply-job {
+      background: #f5c22f;
+      padding: 10px 20px;
+      color: #000;
+      text-decoration: none;
+      font-family: 'Linux Biolinum O' !important;
+      font-weight: bold;
+      margin-top: 10px;
+      display: inline-block;
+    }
+    
+    .sign-up-form {
+      padding: 50px 0 0 0;
+    }
+    
+    .sign-up-form .form-wrapper {
+      margin-bottom: 30px;
+    }
+    
+    .sign-up-form ::-webkit-input-placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #000;
+      font-weight: 600;
+      font-family: 'Linux Biolinum O' !important;
+      opacity: 1;
+      /* Firefox */
+    }
+    
+    .sign-up-form :-ms-input-placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #000;
+      font-weight: 600;
+      font-family: 'Linux Biolinum O' !important;
+      opacity: 1;
+      /* Firefox */
+    }
+    
+    .sign-up-form ::-ms-input-placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #000;
+      font-weight: 600;
+      font-family: 'Linux Biolinum O' !important;
+      opacity: 1;
+      /* Firefox */
+    }
+    
+    .sign-up-form ::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #000;
+      font-weight: 600;
+      font-family: 'Linux Biolinum O' !important;
+      opacity: 1;
+      /* Firefox */
+    }
+    
+    .sign-up-form :-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #000;
+      font-weight: 600;
+      font-family: 'Linux Biolinum O' !important;
+    }
+    
+    .sign-up-form ::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: #000;
+      font-weight: 600;
+      font-family: 'Linux Biolinum O' !important;
+    }
+    
+    .sign-up-form h1 {
+      font-size: 40px;
+      font-family: sans-serif;
+      margin: 0;
+      font-weight: bold;
+      margin-bottom: 25px;
+    }
+    
+    .sign-up-form input {
+      margin: 10px 10px 10px 0;
+      max-width: 26rem;
+      height: 50px;
+      font-weight: 600;
+      font-family: 'Linux Biolinum O' !important;
+      padding-left: 15px;
+    }
+    
+    .sign-up-form select,
+    .sign-up-form textarea,
+    .sign-up-form h2 {
+      max-width: 52.8rem;
+      font-family: sans-serif;
+      min-height: 50px;
+    }
+    
+    .sign-up-form .checkbox-sign-in .usa-checkbox {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    
+    /*.sign-up-form .checkbox-sign-in .usa-checkbox .usa-checkbox__label::before {
+      height: 2rem;
+      width: 2rem;
+      border-radius: 0px;
+      margin-right: 1.50rem;
+      -webkit-box-shadow: 0 0 0 3px #71767a;
+              box-shadow: 0 0 0 3px #71767a;
+    }*/
+    
+    /*.sign-up-form .checkbox-sign-in .usa-checkbox .usa-checkbox__label span {
+      position: relative;
+      top: 5px;
+      font-weight: bold;
+      font-size: 14px;
+      font-family: 'Linux Biolinum O' !important;
+    }*/
+    
+    .sign-up-form .submit-signin {
+      border-radius: 0;
+      margin-top: 50px;
+      padding: 30px 75px;
+      background-color: #3c4981;
+      font-size: 14px;
+      font-family: 'Linux Biolinum O' !important;
+    }
+    
+    .usa-menu-wrapper.career-menu {
+      display: block;
+      position: initial;
+      margin: 40px 0 20px 0;
+    }
+    
+    .sub-menu-page {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      max-width: 1000px;
+      margin: 20px auto;
+    }
+    
+    .sub-menu-page .title-section, .sub-menu-page .image-section {
+      width: 50%;
+    }
+    
+    .sub-menu-page .title-section h1 {
+      margin-top: 0;
+      font-size: 45px;
+      color: #3c4981;
+      width: 100%;
+    }
+    
+    .sub-menu-page .title-section p {
+      width: 100%;
+      font-style: italic;
+      font-size: 25px;
+      color: #a2a2a2;
+    }
+    
+    .sub-menu-page .image-section img {
+      max-width: 480px;
+      max-height: 300px;
+    }
+    
+    .sub-menu-descriptios {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      max-width: 1000px;
+      margin: 20px auto;
+    }
+    
+    .sub-menu-descriptios .descriptions {
+      width: 70%;
+      padding-right: 40px;
+      border-right: 1px solid gray;
+    }
+    
+    .sub-menu-descriptios .descriptions p {
+      font-weight: 500;
+      font-family: 'Linux Biolinum O' !important;
+      color: #000;
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      margin-top: 0;
+    }
+    
+    .sub-menu-descriptios .image-info {
+      width: 30%;
+      padding-left: 40px;
+    }
+    
+    .sub-menu-descriptios .image-info table tr td {
+      padding: 5px;
+    }
+    
+    .sub-menu-descriptios .image-info table tr td img {
+      max-width: 90px;
+      max-height: 182px;
+    }
+    
+    .sub-menu-descriptios .image-info table tr td.double-column img {
+      max-width: 190px;
+    }
+    
+    .sub-menu-descriptios .image-info ul {
+      margin-top: 0;
+      padding-left: 10px;
+    }
+    
+    .sub-menu-descriptios .image-info ul li {
+      font-family: 'Linux Biolinum O' !important;
+      font-weight: 500;
+      font-size: 16px;
+      padding-bottom: 20px;
+    }
+    
+    .subpage-inline {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 20px 0;
+    }
+    
+    .subpage-inline .image-wrapper {
+      max-width: 300px;
+      min-width: 300px;
+      display: inline-block;
+      padding-right: 25px;
+    }
+    
+    .subpage-inline .image-content p {
+      margin-top: 0;
+      font-family: 'Linux Biolinum O' !important;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    
+    .career-events h2 {
+      font-family: sans-serif;
+      text-align: center;
+      font-size: 30px;
+    }
+    
+    .career-events table {
+      margin: 30px auto;
+    }
+    
+    .career-events table tr td .event-details {
+      max-width: 332px;
+      margin: 30px;
+    }
+    
+    .career-events table tr td .event-details a {
+      text-decoration: none;
+      display: block;
+      height: 100%;
+    }
+    
+    .career-events table tr td .event-details a h3 {
+      background: #4c4c4c;
+      padding: 18px 25px;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      font-size: 16px;
+      margin: 0;
+    }
+    
+    .usss_custom_login {
+      min-height: calc(100vh - 200px);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    
+    #login_usss form {
+      padding: 50px;
+      border: 1px solid #ddd;
+      -webkit-box-shadow: 5px 5px 5px #eae5e5;
+              box-shadow: 5px 5px 5px #eae5e5;
+      max-width: 560px;
+    }
+    
+    #login_usss form input {
+      width: 100%;
+      height: 30px;
+    }
+    
+    #login_usss form label {
+      font-size: 21px;
+      display: block;
+      max-width: 100%;
+      font-family: 'Poppins',sans-serif;
+      margin-bottom: 10px;
+      margin-left: 2px;
+      font-weight: 700;
+    }
+    
+    #login_usss form .description {
+      padding: 10px 0;
+    }
+    
+    #login_usss form .form-submit {
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      background: #f5c22f;
+      border: 2px solid #f5c22f;
+      color: #3c4981;
+      height: auto;
+      width: auto;
+      border: none;
+      font-size: 16px;
+      padding: 10px 40px;
+      margin-top: 20px;
+      font-family: 'Poppins',sans-serif;
+    }
+    
+    .usa-hero {
+      background-image: url(../assets/img/usa-special-agents.jpg);
+      min-height: 485px;
+        position: relative;
+        margin-top: 95px;
+    }
+    
+    .usa-my-banner .grid-container {
+      min-height: inherit;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+    }
+    
+    .banner-caption{
+    
+    POSITION: ABSOLUTE;
+        BOTTOM: 0;
+        BACKGROUND: rgba(0, 0, 0, .6);
+        WIDTH: 100%;
+        LEFT: 0;
+    
+    }
+    
+    .usa-my-banner .grid-container .banner-caption h1 {
+      margin: 0;
+      font-family: 'Linux Biolinum O' !important;
+      font-size: 50px;
+      margin-bottom: 00px;
+      color: #f5c22f;
+    Padding:20px 20px 20px 106px;
+    
+    }
+    
+    .sp-agent {
+      margin-bottom: 15px;
+      display: inline-block;
+    }
+    
+    .sp-agent .title-section h2 {
+      margin-top: 0;
+      padding-bottom: 30px;
+      font-size: 40px;
+      font-family: 'Linux Biolinum O' !important;
+      color: #3C4981;
+      position: relative;
+    }
+    
+    .sp-agent .title-section h2::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 2px;
+      width: 40px;
+      background-color: #3C4981;
+    }
+    
+    .sp-agent .title-section h2::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 40px;
+      height: 2px;
+      width: 100px;
+      background-color: #FB9A2D;
+    }
+    
+    .sp-agent .title-section p {
+      font-size: 21px;
+      font-family: 'Linux Biolinum O' !important;
+      line-height: 35px;
+      margin: 0 0 25px 0;
+      color: #000;
+    }
+    
+    .sp-agent .title-section h3 {
+      font-size: 32px;
+      font-family: 'Linux Biolinum O' !important;
+      font-weight: bold;
+      color: #3c4981;
+      margin: 0;
+      padding-bottom: 20px;
+    }
+    
+    .agent-information {
+      border: 1px solid #c9c9c9;
+      padding: 30px 35px;
+    }
+    
+    .agent-information p {
+      font-size: 21px;
+      font-family: 'Linux Biolinum O' !important;
+      line-height: 35px;
+      margin: 0 0 16px 0;
+      letter-spacing: 1px;
+      color: #000;
+    }
+    
+    .agent-information p span {
+      font-size: 32px;
+      font-family: 'Linux Biolinum O' !important;
+      font-weight: bold;
+      color: #FB9A2D;
+      line-height: 26px;
+    }
+    
+    .agent-images {
+      position: relative;
+      min-height: 100%;
+    }
+    
+    .agent-images .img-1 {
+      text-align: right;
+    }
+    
+    .agent-images .img-2 {
+      margin-top: -100px;
+    }
+    
+    .special-agents {
+      background-image: url("../assets/img/special-agent-banner.png");
+          min-height: 485px;
+        margin-top: 95px;
+        background-position: top;
+    }
+    
+    .usa-fitness-bg {
+      background-image: url("../assets/img/usa-fitness-bg.png");
+      min-height: 500px;
+      padding: 60px 0;
+      background-size: cover;
+    }
+    
+    .usa-fitness-bg .usa-fitness-practice {
+      background-color: #ffffffbd;
+      opacity: 0.9;
+      min-height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    
+    .usa-fitness-details * {
+      font-family: 'Linux Biolinum O' !important;
+    }
+    
+    .usa-fitness-details .usa-accordion {
+      margin: 5px 0;
+    }
+    
+    .usa-fitness-details .usa-accordion__button[aria-expanded="true"] {
+      background-image: url(../img/minusorange.svg), -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)) !important;
+      background-image: url(../img/minusorange.svg), linear-gradient(transparent, transparent) !important;
+    }
+    
+    .usa-fitness-details .usa-accordion__heading button[aria-expanded="true"] {
+      font-family: 'Linux Biolinum O' !important;
+      position: relative;
+      outline: none;
+      background-color: #ffffff;
+      font-size: 21px;
+      line-height: 27px;
+      color: #fb9a2d;
+    }
+    
+    .usa-fitness-details .usa-accordion__heading button[aria-expanded="true"]::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 20px;
+      height: 2px;
+      width: 40px;
+      background-color: #FB9A2D;
+    }
+    
+    .usa-fitness-details .usa-accordion__heading button[aria-expanded="true"]::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 60px;
+      height: 2px;
+      width: 100px;
+      background-color: #3C4981;
+    }
+    
+    .usa-fitness-details .usa-accordion__heading button:not([disabled]):focus {
+      outline: none;
+    }
+    
+    .usa-fitness-details .usa-accordion__heading button:hover {
+      background-color: #ffffff;
+      opacity: 0.9;
+    }
+    
+    .usa-fitness-details .usa-accordion__heading button {
+      font-family: 'Linux Biolinum O' !important;
+      position: relative;
+      outline: none;
+      background-color: #ffffff;
+      opacity: 0.9;
+      font-size: 21px;
+      line-height: 27px;
+    
+    
+    
+    }
+    
+    .usa-fitness-details .usa-accordion__content {
+      opacity: 0.9;
+      max-height: 600px;
+      overflow-y: scroll;
+    }
+    
+    .usa-fitness-details .usa-accordion__content .table-caption {
+      font-size: 18px;
+      line-height: 18px;
+      font-family: LinBiolinum_RB !important;
+    }
+    
+    .usa-fitness-details .usa-accordion__content .pu {
+      font-size: 18px;
+      color: #FB9A2D;
+      font-weight: bold;
+    }
+    
+    .usa-fitness-details .usa-accordion__content p {
+      max-width: 100%;
+      font-size: 21px;
+      font-family: 'Linux Biolinum O' !important;
+      line-height: 35px;
+      margin: 0 0 16px 0;
+      color: #000000;
+    }
+    
+    .usa-fitness-details .usa-accordion__content table {
+      width: 100%;
+      font-family: 'Linux Biolinum O' !important;
+    }
+    
+    .usa-fitness-details .usa-accordion__content table thead td {
+      background-color: #ffffff;
+      opacity: 0.9;
+      font-weight: bold;
+    }
+    
+    .usa-fitness-details .usa-accordion__content table thead tr td:nth-child(1) {
+      width: 30%;
+    }
+    
+    .usa-fitness-details .usa-accordion__content table thead tr td:nth-child(2) {
+      width: 70%;
+      text-align: center;
+    }
+    
+    .usa-fitness-details .usa-accordion__content table tr td:nth-child(1) {
+      text-align: left;
+    }
+    
+    .usa-fitness-details .usa-accordion__content table tr td {
+      text-align: center;
+      color: #000;
+      font-family: LinBiolinum_RB !important;
+    }
+    
+    .usa-fitness-details .usa-accordion__content table td {
+      border: 1px solid #ddd;
+      font-family: inherit;
+    }
+    
+    .flex-row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    
+    .no-padding {
+      padding: 0 !important;
+    }
+    
+    .usa-training ul li {
+      max-width: 100%;
+      font-size: 21px;
+      font-family: 'Linux Biolinum O' !important;
+      line-height: 35px;
+      margin: 0 0 16px 0;
+      color: #000000;
+    }
+    
+    .usa-training ol li {
+      max-width: 100%;
+      font-size: 21px;
+      font-family: 'Linux Biolinum O' !important;
+      line-height: 35px;
+      margin: 0 0 16px 0;
+      color: #000000;
+    }
+    
+    @media (min-width: 1200px) {
+      .grid-container {
+        max-width: 100rem;
+      }
+    
+      .mobile-menu{
+            display: none!important;
+        }
+    
+    
+      .grid-container-fluid {
+        max-width: 1440px;
+        margin: 0 auto;
+      }
+    }
+    
+    
+    @media (min-width: 1023px) and (max-width: 1024px) {
+    
+    .application-process-text-new {
+        background-color: #3c4981;
+        color: white!important;
+        width: 39%;
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 0px;
+        min-height: 374px!important;
+        height: 374px!important;
+        overflow: auto;
+    }
+    
+      }
+    
+    @media (min-width: 834px) and (max-width: 850px) {
+    
+    .application-process-text-new {
+        background-color: #3c4981;
+        color: white!important;
+        width: 39%;
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 0px;
+        min-height: 312.39px!important;
+        height: 312.39px!important;
+        overflow: auto;
+    }
+    
+    
+    .h4-sub-head {
+        font-size: 28px!important;
+        font-family: 'Linux Biolinum O' !important;
+        font-weight: bold;
+        color: #3c4981;
+        -webkit-margin-before: 0em;
+        margin-top: 0em;
+        margin-bottom: 0em;
+    }
+    
+    
+    .opeanings-cards-tabs {
+        width: 49.80%!important;
+    }
+    
+      }
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+    
+      .opeanings-cards {
+        min-height: 139px!important;
+    }
+    
+    
+    
+       .slider-usa-button-float{
+      display: none!important;
+    }
+    
+        .mobile-menu{
+            display: none!important;
+        }
+    
+        .pdf_content_responsive{
+      background-color: white!important;
+        margin: 0 auto 20px auto!important;
+        border: 4px solid #000!important;
+        padding: 0px 10px 20px 10px!important;
+        font-family: 'Linux Biolinum O' !important;
+        line-height: 35px!important;
+        letter-spacing: 1px!important;
+        color: #000!important;
+        width: 100%!important;
+        text-align: left!important;
+    
+    }
+    
+      .find-a-usa-search .search-location form input {
+        padding: 10px;
+        background: #fff;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: #333 !important;
+        border: 1px solid #c2c4d5;
+        font-size: 16px;
+        font-family: 'Linux Biolinum O' !important;
+        height: 46px;
+        width: 87%!important;
+        margin-right: 0px!important;
+    }
+    
+    .find-a-usa-search .search-location form button {
+        line-height: 18px;
+        background: #f5c22f;
+        border: #f5c22f;
+        font-family: 'Linux Biolinum O' !important;
+        height: 46px;
+        margin-right: 0px!important;
+        font-weight: bold;
+        top: 2px;
+        position: relative;
+        color: #3c4981!important;
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+    
+    .find-a-usa-search{
+      margin-top: 50px!important;
+    }
+    
+      #menu-wrapper {
+        max-width: 65.5rem;
+        margin-right: 0px;
+        right: initial;
+    }
+    
+    
+      .form-side {
+        display: inline-block;
+        width: 95% !important;
+        margin: 0px 0px 10px 0px !important;
+      }
+      .form-side button {
+        display: inline-block;
+        width: initial;
+        background: #f5c22f;
+        border: #f5c22f;
+        font-family: 'Linux Biolinum O' !important;
+      }
+      .career-jobs {
+        background-color: #DFDFDF;
+        padding: 30px 30px;
+        min-height: inherit !important;
+        margin-bottom: 20px;
+      }
+      .tool {
+        background-color: #DFDFDF;
+        padding: 30px 30px !important;
+        min-height: inherit !important;
+        margin-bottom: 20px;
+      }
+      .phase-1-content {
+        margin-top: 0 !important;
+        padding: 30px 30px;
+        background-color: white;
+      }
+      .phase-2-content {
+        margin-top: 0 !important;
+        padding: 30px 30px;
+        background-color: white;
+      }
+      #menu-wrapper .all-menu aside {
+        max-width: 300px;
+      }
+      #menu-wrapper .all-menu .section-menu {
+        padding: 20px;
+      }
+      #menu-wrapper .all-menu .section-menu .menu-card {
+        clear: left;
+      }
+      .usa-my-header .usa-navbar {
+        display: block !important;
+        height: auto;
+      }
+      .usa-hero__caption h1 {
+        font-size: 20px;
+        line-height: 50px;
+      }
+      .usa-hero__caption h2 {
+        font-size: 20px;
+      }
+    
+      .flexslider {
+        margin: 0 0 0px!important;
+    }
+    
+    .section-career-events .grid-row.grid-gap > * .career-info {
+        padding: 20px;
+        background: #3c4981;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        -webkit-box-shadow: inset 1px -20px 11px 0px #00000045;
+        box-shadow: inset 1px -20px 11px 0px #00000045;
+        min-height: 502 !important;
+    }
+    
+    .agent-images {
+        position: relative;
+        min-height: 100%;
+        margin-top: 30px;
+    }
+    
+    .agent-images .img-2 {
+        margin-top: -428px;
+    }
+    
+    .usa-section {
+        padding-bottom: 0rem!important;
+        padding-top: 2rem !important;
+    }
+    
+    h3 {
+        font-size: 32px;
+        font-family: 'Linux Biolinum O' !important;
+        font-weight: bold;
+       /* color: #FB9A2D;*/
+        color: #3c4981;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    
+    .drug-policy-bottom-banner .sp-agent {
+        margin-top: 20px;
+        background: white;
+        text-align: justify;
+        padding: 25px;
+        height: auto!important;
+    }
+    
+    .sp-agent .title-section h2 {
+        margin-top: 0;
+        padding-bottom: 30px;
+        font-size: 36px;
+        font-family: 'Linux Biolinum O' !important;
+        color: #3C4981;
+        position: relative;
+    }
+    
+    /*.vertical-img-center img {
+        position: relative!important;
+        -webkit-transform: initial!important;
+        transform: initial!important;
+    }*/
+    
+    .UDO-application-process-bg {
+        background-image: url(/profiles/cusssd8_gov/themes/custom/drupal2/assets/img/Banner01.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        margin: 0px 0px 40px 0px;
+        padding: 100px 0px 80px 0px;
+        background-size: cover;
+    }
+    
+    .drug-policy-section h2 {
+        margin-top: 0;
+        font-size: 32px;
+        font-family: 'Linux Biolinum O' !important;
+        color: #3C4981;
+    }
+    
+    .drug-policy-section h2 {
+        margin-top: 0;
+        font-size: 32px!important;
+        font-family: 'Linux Biolinum O' !important;
+        color: #3C4981;
+    }
+    
+    .agent-images .img-2 {
+        margin-top: 0px;
+    }
+    
+    .division_officer_histort {
+        margin-top: 0px!important;
+        background-color: white;
+        padding: 35px 50px 10px 50px!important;
+        -webkit-box-shadow: 0 0px 20px 0 rgba(0,0,0,0.1);
+        box-shadow: 0 0px 20px 0 rgba(0,0,0,0.1);
+    }
+    
+    .find-usa-jobs .nearest-job {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: initial;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .find-a-usa-jobs .nearest-location form input {
+        padding: 10px;
+        background: #fff;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: #333 !important;
+        border: 1px solid #c2c4d5;
+        font-size: 16px;
+        font-family: 'Linux Biolinum O' !important;
+        height: 46px;
+        width: 290px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .apply-usa-job{
+    
+    text-align: center;
+    margin-bottom: 20px;
+    
+    }
+    
+    .agent-images .img-1 {
+        text-align: center;
+    }
+    
+    .our_drug_subsection {
+         margin-top: 0px!important;
+    }
+    
+    .odo_app_img{
+      margin-bottom: 0rem!important;
+    }
+    
+    
+    .UDO-application-process-content {
+        padding: 10px 30px;
+        background-color: white;
+        min-height: auto!important;
+        margin-bottom: 10px;
+    }
+    
+    
+    .jjrtc-center {
+        border-left: #FB9A2D 2px solid;
+        padding-left: 20px;
+        margin-top: 0;
+        font-size: 32px;
+        font-family: 'Linux Biolinum O' !important;
+        color: #3C4981;
+        position: relative;
+    }
+    
+    .accreditation {
+        background-color: #ececec;
+        padding: 20px 30px 0px 30px;
+        min-height: initial!important;
+        margin-bottom: 20px;
+    }
+    
+    
+    .usa-hero {
+        min-height: 300px;
+        position: relative;
+    }
+    
+      .section-career-events .grid-row.grid-gap > * .career-events button, .career-events header {
+        background-color: #4C4C4C;
+        width: 100%;
+        border-radius: 0;
+        font-size: 19px;
+        text-transform: uppercase;
+        padding: 16px;
+        text-align: left;
+      }
+      .sub-menu-page .image-section img {
+        max-width: 100%;
+      }
+      .sub-menu-descriptios .descriptions {
+        width: 65%;
+      }
+      .sub-menu-descriptios .image-info {
+        width: 35%;
+      }
+      .sign-up-form input {
+        margin: 10px 10px 10px 0;
+        max-width: 48.4%;
+        height: 50px;
+        font-weight: 600;
+        font-family: 'Linux Biolinum O' !important;
+        padding-left: 15px;
+      }
+    }
+    
+
+    @media (min-width: 320px) and (max-width: 480px) {
+      .career-info .usa-opening-links ul li a{
+      line-height: 30px !important;
+    }
+    
+     .carrerEventMainpage p{
+      line-height: 30px !important;
+     }
+    
+      .nearest-job {
+    flex-flow: column !important;
+    float: none !important;
+    }
+    
+        .usa-opening-links ul{
+        text-align: initial !important;
+    }
+      .form-side button {
+        display: inline-block;
+        width: initial !important;
+        background: #f5c22f;
+        border: #f5c22f;
+        font-family: 'Linux Biolinum O' !important;
+      }
+      .form-side {
+        display: inline-block;
+        width: 95% !important;
+        margin: 0px 20px 10px 20px;
+      }
+      .career-jobs {
+        background-color: #DFDFDF;
+        padding: 30px 30px;
+        min-height: inherit !important;
+        margin-bottom: 20px;
+      }
+      .tool {
+        background-color: #DFDFDF;
+        padding: 30px 10px !important;
+        min-height: inherit !important;
+        margin-bottom: 20px;
+      }
+      .phase-1-content {
+        margin-top: 0px !important;
+        padding: 30px 30px;
+        background-color: white;
+      }
+      .phase-2-content {
+        margin-top: 0px !important;
+        padding: 30px 30px;
+        background-color: white;
+      }
+      .career-phase {
+        width: 100% !important;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        border: 1px solid #c9c9c9;
+        text-align: center;
+        color: #3C4981;
+        min-height: 350px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        vertical-align: middle;
+      }
+      #menu-btn {
+        position: relative;
+        /*top: -80px;*/
+      }
+      .grid-container .usa-hero__caption h1 {
+        font-size: 21px;
+        line-height: 20px;
+        width: 55%;
+      }
+      .grid-container .usa-hero__caption h2 {
+        font-size: 18px;
+      }
+      .grid-container .usa-hero__caption p {
+        font-size: 10px;
+        margin-bottom: 5px;
+        display: none;
+      }
+      .grid-container .usa-hero__caption .usa-button-float {
+        margin: 0;
+        display: none;
+      }
+      .grid-container .usa-hero__caption .usa-button-float a {
+        padding: 10px;
+        margin: 0;
+      }
+      .grid-container .usa-hero__caption .usa-button-float .usa-btn-signup {
+        min-width: auto;
+      }
+    
+    
+    }
+    
+    @media (min-width: 320px) and (max-width: 767px) {
+        .immedate-Banner-img {
+        background-position-x: center !important;
+    }
+        .slider_section{
+            min-height: 157px!important;
+        }
+      .career-info .usa-opening-links ul li a{
+      line-height: 30px !important;
+    }
+    
+     .carrerEventMainpage p{
+      line-height: 30px !important;
+     }
+    
+      .nearest-job {
+    flex-flow: column !important;
+    float: none !important;
+    }
+        .usa-opening-links ul{
+        text-align: initial !important;
+    }
+      .nearest-job a{
+      font-size: 20px;
+    
+    }
+    .apply-usa-job a {
+    font-size: 20px;
+    }
+    
+      .nearest-job{
+        margin-top: 10px;
+      }
+        .criminal_investigator_home_block{
+        margin-top: 10px;
+      }
+    
+      ul.top-section-menu:before {
+        content: "<";
+        position: absolute;
+        top: 12px;
+        left: 4px;
+        width: 25px;
+        height: 25px;
+        color: #3c4981;
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: normal;
+            background-color: whitesmoke;
+    }
+    
+    ul.top-section-menu:after {
+        content: ">";
+        position: absolute;
+        top: 12px;
+        right:4px;
+        width: 25px;
+        height: 25px;
+        color: #3c4981;
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: normal;
+            background-color: whitesmoke;
+    }
+    
+      .section-menu .top-section-menu li a {
+      padding: 0 10px;
+      font-size: 14px;
+      font-family: 'Linux Biolinum O' !important;
+      font-weight: 700;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #000;
+    }
+    
+    
+      .menu-card figure a {
+      margin: 10px 0px;
+    }
+    
+      .section-menu .top-section-menu {
+      float: left;
+      list-style: none;
+      margin-top: 0;
+      padding-left: 0;
+      width: 100%;
+      margin-top: 0px;
+        margin-block-end: 0em;
+        overflow: auto;
+        white-space: nowrap;
+        margin-bottom: 15px;
+            padding: 0px 20px 0px 12px;
+        text-align: center;
+    }
+    
+    
+    .section-menu .top-section-menu li {
+      float: initial;
+      display: inline-block;
+      padding-left: 7px;
+        padding-right: 7px;
+    }
+    
+    
+      .slider_section{
+      min-height:520px;
+    }
+    
+      .opeanings-cards{
+         width: 100%!important;
+             margin: 10px 0px!important;
+    }
+    
+    
+    .video_section{
+        margin-top: -100px;
+        margin-bottom: -232px;
+    }
+    
+        .menu-card figure a .menu-label p{
+            text-align: left!important;
+        }
+    
+        .menu-card figure a .menu-label p{
+            text-align: left!important;
+        }
+    
+        .menu-card figure a .menu-image {
+        min-width: 70px;
+        min-height: 70px;
+        height: 70px!important;
+        padding: 0px;
+        background: #8a8a8a;
+        height: initial;
+    }
+    
+    
+    .menu-card figure.active a .menu-image {
+        background: #f5c22f;
+        min-width: 70px;
+        min-height: 70px;
+        height: 70px!important;
+        padding: 0;
+        padding: 0px;
+        height: initial;
+    }
+    
+        .menu-card figure a .menu-label {
+        background: #cfcfcf;
+        padding: 10px;
+        color: #000;
+        font-size: 14px;
+        min-width: 285px;
+        min-height: inherit;
+    }
+    
+    
+    .menu-card figure.active a .menu-label {
+        background: #fff;
+        padding: 10px;
+        color: #000;
+        font-size: 14px;
+        min-width: 285px;
+        min-height: inherit;
+    }
+    
+    
+    .menu-card figure.active a .menu-image img {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+    .menu-card figure a .menu-image img {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+        .agent-images .img-2 {
+        display: inline-block;
+        margin-top: 0px;
+        width: 100%!important;
+    }
+    
+    .agent-information {
+        border: 1px solid #c9c9c9;
+        padding: 30px 5px;
+    }
+    
+        .flexslider .flex-direction-nav .flex-next{
+    display: none;
+    }
+    
+    .flexslider .flex-direction-nav .flex-prev{
+    display: none;
+    }
+    
+      .content img{
+        text-align: center!important;
+        float: inherit!important;
+      }
+    
+      .pdf_content_responsive{
+      background-color: white!important;
+        margin: 0 auto 20px auto!important;
+        border: 4px solid #000!important;
+        padding: 0px 10px 20px 10px!important;
+        font-family: 'Linux Biolinum O' !important;
+        line-height: 35px!important;
+        letter-spacing: 1px!important;
+        color: #000!important;
+        width: 100%!important;
+        text-align: center!important;
+    
+    }
+    
+    /*.grid-row div{
+      text-align: center;
+    }*/
+    .see-more{
+      text-align: center !important;
+    }
+    .mob-fo{
+      text-align: center !important;
+    }
+    /*.title-section h2 {
+    
+    }
+    */
+    .content p{
+      font-size: 18px;
+        font-family: 'Linux Biolinum O' !important;
+        line-height: 35px;
+        margin: 0 0 25px 0;
+        color: #000;
+    }
+    
+    
+       .career-info a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px!important;
+        text-decoration: none;
+        font-family: 'Linux Biolinum O' !important;
+    }
+    
+    
+    .dynamic_career_h4{
+    color: #ffffff !important;
+    }
+    
+    
+    .usa-my-header .usa-logo a img {
+        width: 65px;
+    }
+    
+      .form-side {
+        display: inline-block;
+        width: 95% !important;
+        margin: 0px 0px 10px 0px !important;
+      }
+      .division_officer_training_bg {
+        background-image: url("../assets/img/Uniformed_training_bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        position: relative;
+        margin-top: 0px !important;
+      }
+      .usa-navbar {
+        border-bottom: 0;
+      }
+      .usa-my-header .usa-logo a {
+        position: initial;
+        width: 60px;
+      }
+      .usa-hero__caption h1 {
+        font-size: 36px;
+        line-height: initial;
+      }
+      .usa-hero__caption h2 {
+        font-size: 30px;
+      }
+      .usa-navbar {
+        height: auto;
+        display: initial;
+      }
+      .usa-btn-menu {
+        width: 36px;
+      }
+      .usa-hero__caption p {
+        width: 100%;
+      }
+      .usa-hero__caption .usa-button-float a {
+        width: auto;
+        margin: 10px 5px;
+      }
+      .career-info {
+        margin-bottom: 30px;
+      }
+      .immediate-openings .see-more {
+        margin-bottom: 20px;
+      }
+      .section-career-events .career-events .grid-row.grid-gap > * button {
+        font-size: 20px !important;
+      }
+      .nearest-job form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+      }
+      .nearest-job form input {
+        width: 80% !important;
+      }
+      .nearest-job form button {
+        min-width: 62px;
+        top: 0 !important;
+      }
+      .section-career-events .grid-row.grid-gap > * .career-info.no-padding {
+        padding: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      }
+      #menu-wrapper {
+        max-width: 100%;
+        margin-right: 0px;
+        left: 0;
+        right: initial!important;
+      }
+      #menu-wrapper .all-menu {
+        min-height: inherit;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            flex-flow: column-reverse;
+      }
+      #menu-wrapper .all-menu aside,
+      #menu-wrapper .all-menu .section-menu {
+        max-width: 100%;
+        border-top: 1px solid #ffffff85;
+        height: 500px;
+        overflow: scroll;
+      }
+      #menu-wrapper .all-menu aside .menu-card figure,
+      #menu-wrapper .all-menu .section-menu .menu-card figure {
+        margin: 2px 0px;
+      }
+      .usa-my-header .social-icon-wrapper img {
+        width: 25px;
+        margin: 0 3px;
+      }
+    
+      #extended-logo {
+        display: inline-block;
+        max-width: initial;
+        width: 66px;
+    }
+    
+      .post-page {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      .post-page h1 {
+        font-family: sans-serif;
+        font-weight: bold;
+      }
+      .post-page p {
+        font-family: 'Linux Biolinum O' !important;
+        font-weight: 500;
+        font-size: 16px;
+      }
+      .post-page .inline-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin: 20px 0;
+      }
+      .post-page .inline-block .image-wrapper {
+        max-width: 100%;
+      }
+      .post-page .btn-apply-job {
+        background: #f5c22f;
+        padding: 10px 20px;
+        color: #000;
+        text-decoration: none;
+        font-family: 'Linux Biolinum O' !important;
+        font-weight: bold;
+        margin-top: 10px;
+        display: inline-block;
+      }
+      .sub-menu-page {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      .sub-menu-page .title-section, .sub-menu-page .image-section {
+        width: 100%;
+      }
+      .sub-menu-page .title-section h1 {
+        margin-top: 0;
+        font-size: 45px;
+        color: #3c4981;
+        width: 100%;
+      }
+      .sub-menu-page .title-section p {
+        width: 100%;
+        font-style: italic;
+        font-size: 25px;
+        color: #a2a2a2;
+      }
+      .sub-menu-descriptios {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+      }
+      .sub-menu-descriptios .descriptions {
+        width: 100%;
+        padding-right: 0;
+      }
+      .sub-menu-descriptios .image-info {
+        width: 100%;
+        border-left: 0;
+        padding-left: 0;
+      }
+      .sub-menu-page .image-section img {
+        max-width: 100%;
+        max-height: 300px;
+      }
+      .career-events h2 {
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 30px;
+      }
+      .career-events table {
+        margin: 30px auto;
+      }
+      .career-events table tr td {
+        display: block;
+      }
+      .career-events table tr td .event-details {
+        max-width: 332px;
+        margin: 15px;
+      }
+      .career-events table tr td .event-details a {
+        text-decoration: none;
+        display: block;
+        height: 100%;
+      }
+      .career-events table tr td .event-details a h3 {
+        background: #4c4c4c;
+        padding: 18px 25px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 0;
+      }
+
+
+      .grid-container {
+        padding: 10px;
+      }
+
+      .usa-my-banner .grid-container {
+        min-height: inherit;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+      }
+      .usa-my-banner .grid-container .banner-caption h1 {
+        margin: 0;
+        font-family: 'Linux Biolinum O' !important;
+        font-size: 50px;
+        margin-bottom: 50px;
+        color: #f5c22f;
+      }
+      .agent-images {
+        position: relative;
+        min-height: 100%;
+      }
+      .agent-images .img-1 {
+        text-align: right;
+      }
+      .agent-images .img-2 {
+        margin-top: 0px;
+      }
+    }
+    
+    @media (min-width: 320px) and (max-width: 600px) and (orientation: portrait) {
+    
+      .career-info .usa-opening-links ul li a{
+      line-height: 30px !important;
+    }
+    
+     .carrerEventMainpage p{
+      line-height: 30px !important;
+     }
+    
+      .nearest-job {
+    flex-flow: column !important;
+    float: none !important;
+    }
+    .usa-opening-links ul{
+        text-align: initial !important;
+    }
+      .slider_section{
+      min-height:520px;
+    }
+      .footer-flex {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+      }
+      .usa-footer .copyright-content p span {
+        height: initial;
+        line-height: 20px;
+      }
+    
+        .opeanings-cards{
+         width: 100%;
+    }
+    }
+    
+    .background-investigation-bg {
+      background-image: url("../assets/img/background-investi-info-bg.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 100px 0px;
+      margin-bottom: 4rem;
+    }
+    
+    .background-investigation-first-section {
+      padding-bottom: 0rem !important;
+    }
+    
+    .split-1 {
+      padding: 0px 0 20px 0;
+      margin-right: 20px;
+    }
+
+    
+    .benefits_content_split-1 {
+      padding: 0px 0;
+    }
+    
+    .benefits_content_second {
+      background-image: url("../assets/img/benefits-banner-img.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 4rem;
+    }
+    
+    .benefits_content_second_2 {
+      outline: 1px solid #fff;
+      outline-offset: -10px;
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 30px 40px !important;
+      color: #fff !important;
+    }
+    
+    .benefits_content_second_2 p {
+      color: #fff !important;
+    }
+    
+    .career_path_second {
+      background-image: url("../assets/img/career_path_img-bg.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 4rem;
+      padding: 100px 0px;
+    }
+    
+    .career_path_contnt_2 {
+      background-color: #fff;
+      padding: 30px 40px !important;
+      color: #fff !important;
+    }
+    
+    .qualifications-imp-text {
+      background-color: #DFDFDF;
+      border-left: 2px solid #FB9A2D;
+      padding: 15px 12px 15px 12px;
+    }
+    
+    .qualifications-imp-text p {
+      font-size: 16px !important;
+      line-height: 1.5;
+      padding-bottom: 0px;
+      margin: 0 0 0px 0;
+    }
+    
+    .application_process_fst_sec {
+      background-image: url("../assets/img/application_process.jpg");
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 0 !important;
+      margin-left: .0rem;
+    }
+    
+    .img-over-text {
+      outline: 1px solid #fff;
+      outline-offset: -10px;
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 50px 40px !important;
+      color: #fff !important;
+    }
+    
+    .img-over-text p {
+      color: #fff !important;
+      margin: 0 0 0px 0;
+    }
+    
+    .application_process_content_padding {
+      padding-left: 20px;
+    }
+    
+    .application_proces_ol_list {
+      max-width: 100%;
+      font-size: 21px;
+      font-family: 'Linux Biolinum O' !important;
+      line-height: 35px;
+      margin: 0 0 16px 0;
+      color: #000000;
+    }
+    
+    .application_proces_ol_list li {
+      margin-bottom: 16px;
+    }
+    
+    .application_proces_ol_list_margin {
+      margin: 40px 0 16px 0;
+      max-width: 100%;
+      font-size: 21px;
+      font-family: 'Linux Biolinum O' !important;
+      line-height: 35px;
+      color: #000000;
+    }
+    
+    .application_proces_ol_list_margin li {
+      margin-bottom: 16px;
+    }
+    
+    .career-phase {
+      width: 33%;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      border: 1px solid #c9c9c9;
+      text-align: center;
+      color: #3C4981;
+      min-height: 350px;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      vertical-align: middle;
+    }
+    
+    .career-phase a {
+      min-width: 100%;
+      display: table;
+      min-height: 350px;
+    }
+    
+    .phase {
+      display: table-cell;
+      vertical-align: top;
+      padding-top: 38px;
+    }
+    
+    .career-phase a:hover {
+      min-width: 100%;
+      background-color: #d9d9d9;
+    }
+    
+    .career-phase a {
+      text-decoration: none;
+    }
+    
+    .career-phase p {
+      font-family: 'Linux Biolinum O' !important;
+      font-size: 30px;
+      color: #3C4981 !important;
+      padding-top: 10px;
+      line-height: 35px;
+      margin: 0 0 15px 0;
+    }
+    
+    .career-path-text {
+      background-image: url("../assets/img/white bg.png");
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: contain;
+      padding: 30px 0 !important;
+    }
+    
+    /*.vertical-img-center {
+      position: relative;
+    }
+    
+    .vertical-img-center img {
+      position: absolute;
+      -webkit-transform: translateY(20%);
+              transform: translateY(20%);
+    }*/
+    
+    .employment-disqualifiers-content {
+      padding: 20px 30px 10px 30px;
+      background-color: white;
+    }
+    
+    .employment-disqualifiers-img {
+      background-image: url("../assets/img/employment-disqualifiers-img-repete.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .employment-disqualifiers-text {
+      padding-bottom: 30px;
+    }
+    
+    .division_officer_training {
+      z-index: 1;
+      background-color: white;
+      padding: 30px 50px 10px 50px;
+    }
+    
+    .division_officer_training_bg {
+      background-image: url("../assets/img/Uniformed_training_bg.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 500px;
+      position: relative;
+      margin-top: -150px;
+    }
+    
+    .division_officer_about_bg {
+      background-image: url("../assets/img/about-history.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+    }
+    
+    .division_officer_histort {
+      margin-top: -350px;
+      background-color: white;
+      padding: 10px 50px 10px 50px;
+      -webkit-box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
+              box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
+    }
+    
+    .division_Officer_bg_two {
+      background-image: url("../assets/img/investigation-mission-about-bg-2.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .division_Officer_bg_color {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 10px 40px 10px 40px;
+    }
+    
+    .jjrtc-center {
+      border-left: #FB9A2D 2px solid;
+      padding-left: 20px;
+      margin-top: 0;
+      font-size: 32px;
+      font-family: 'Linux Biolinum O' !important;
+      color: #3C4981;
+      position: relative;
+    }
+    
+    .jjrtc-section-slide {
+      background-image: url("../assets/img/Group 306.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 30px 0px 30px 0px;
+      padding: 0px 0px 0px 0px;
+      background-size: cover;
+    }
+    
+    .jjrtc-section-slide p {
+      color: #000 !important;
+      text-align: left;
+    }
+    
+    .jjrtc-section-second-slide {
+      background-image: url("../assets/img/Group 308.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 30px 0px 30px 0px;
+      padding: 0px 0px 00px 0px;
+      background-size: cover;
+    }
+    
+    .jjrtc-section-second-slide p {
+      color: #000 !important;
+      text-align: left;
+    }
+    
+    .sp-training-third-section h2 {
+      margin-top: 0;
+      font-size: 30px !important;
+      font-family: 'Linux Biolinum O' !important;
+      color: #3c4981 !important;
+      position: relative;
+    }
+    
+    .accreditation {
+      background-color: #ececec;
+      padding: 20px 30px 0px 30px;
+      min-height: 714px;
+    }
+    
+    .diversity-overview-section h3 {
+      margin-top: 0;
+      font-size: 30px !important;
+      font-family: 'Linux Biolinum O' !important;
+      color: #FB9A2D !important;
+      position: relative;
+    }
+    
+    .diversity-sub-section {
+      margin-top: 0;
+      font-size: 24px !important;
+      font-family: 'Linux Biolinum O' !important;
+      color: #333 !important;
+      position: relative;
+    }
+    
+    .diversity-last-section-bg {
+      background-image: url("../assets/img/White-House-portico-Pennsylvania-Avenue.png");
+      background-position: top;
+      background-repeat: no-repeat;
+      margin: 80px 0px 80px 0px;
+      padding: 100px 0px 80px 0px;
+      background-size: cover;
+    }
+    
+    .h4-sub-head {
+      font-size: 32px;
+      font-family: 'Linux Biolinum O' !important;
+      font-weight: bold;
+      /*color: #FB9A2D;*/
+      color: #3c4981;
+    
+      -webkit-margin-before: 0em;
+              margin-top: 0em;
+              margin-bottom: 0em;
+    }
+    
+    .h5-sub-heading {
+      -webkit-margin-before: 0em;
+              margin-top: 0em;
+      -webkit-margin-after: 1em;
+              margin-bottom: 1em;
+      font-size: 26px;
+      font-family: 'Linux Biolinum O' !important;
+      font-weight: bold;
+      color: #000;
+    }
+    
+    .UDO-application-process-bg {
+      background-image: url("../assets/img/Banner01.png");
+      background-position: top;
+      background-repeat: no-repeat;
+      margin: 0px 0px 80px 0px;
+      padding: 100px 0px 80px 0px;
+      background-size: cover;
+    }
+    
+    .UDO-application-process-content {
+      padding: 10px 30px;
+      background-color: white;
+      min-height: 600px;
+    }
+    
+    .icon-imgs img {
+      padding-right: 10px;
+    }
+    
+    .phase-1-bg-content {
+      min-height: 653px;
+      position: relative;
+    }
+    
+    .phase-text-1 {
+      border-left: 2px solid #f5c22f;
+      position: absolute;
+      bottom: 10%;
+    }
+    
+    .phase-text-1 h4 {
+      font-family: 'Linux Biolinum O' !important;
+      font-size: 30px;
+      color: #f5c22f !important;
+      padding-top: 10px;
+      line-height: 35px;
+      margin: 0 0 10px 20px;
+    }
+    
+    .phase-1-bg-img {
+      background-image: url("../assets/img/phase 1.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 0 !important;
+      margin-left: .0rem;
+    }
+    
+    .phase-1-content {
+      margin-top: -520px;
+      padding: 30px 30px;
+      background-color: white;
+    }
+    
+    .phase-text-2 {
+      border-left: 2px solid #f5c22f;
+      position: absolute;
+      bottom: 10%;
+      margin-left: 28px;
+    }
+    
+    .phase-text-2 h4 {
+      font-family: 'Linux Biolinum O' !important;
+      font-size: 30px;
+      color: #f5c22f !important;
+      padding-top: 10px;
+      line-height: 35px;
+      margin: 0 0 10px 20px;
+    }
+    
+    .phase-2-bg-img {
+      background-image: url("../assets/img/phase 2.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 0 !important;
+      margin-left: .0rem;
+    }
+    
+    .phase-1-content-text p {
+      font-size: 18px;
+      line-height: 20px !important;
+      margin: 0 0 20px 0 !important;
+      padding-left: 30px;
+    }
+    
+    .phase-2-content {
+      margin-top: -269px;
+      padding: 30px 30px;
+      background-color: white;
+    }
+    
+    .phase-3-bg-img {
+      background-image: url("../assets/img/phase 3.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 0 !important;
+      margin-left: .0rem;
+    }
+    
+    .tool-h4 {
+      font-family: 'Linux Biolinum O' !important;
+      font-size: 30px;
+      color: #f5c22f !important;
+      padding-top: 10px;
+      line-height: 35px;
+    }
+    .tool-h4 p {
+      font-family: 'Linux Biolinum O' !important;
+      font-size: 30px;
+      color: #f5c22f !important;
+      padding-top: 10px;
+      line-height: 35px;
+    }
+    
+    .tool {
+      background-color: #DFDFDF;
+      padding: 30px 30px;
+      min-height: 650px;
+      margin-bottom: 20px;
+    }
+    
+    .tool h5 {
+      margin-top: 0;
+      font-size: 24px !important;
+      font-family: 'Linux Biolinum O' !important;
+      color: #333 !important;
+      position: relative;
+    }
+    
+    .career-jobs {
+      background-color: #DFDFDF;
+      padding: 30px 30px;
+      min-height: 715px;
+      margin-bottom: 20px;
+    }
+    
+    .opening-offer {
+      background-color: #DFDFDF;
+      padding: 10px 30px;
+      margin-bottom: 20px;
+    }
+    
+    .opening-offer h4 {
+      -webkit-margin-before: 0.33em !important;
+              margin-top: 0.33em !important;
+      -webkit-margin-after: 0.33em !important;
+              margin-bottom: 0.33em !important;
+      color: #000 !important;
+    }
+    
+    .find-a-usa-jobs .nearest-location form input {
+      padding: 10px;
+      background: #fff;
+      font-family: sans-serif;
+      font-weight: bold;
+      color: #333 !important;
+      border: 1px solid #c2c4d5;
+      font-size: 16px;
+      font-family: 'Linux Biolinum O' !important;
+      height: 46px;
+      width: 383px;
+      margin-right: 10px;
+    }
+    
+    .find-a-usa-jobs .nearest-location form button {
+    
+    
+      line-height: 18px;
+      background: #f5c22f;
+      border: #f5c22f;
+      font-family: 'Linux Biolinum O' !important;
+      height: 46px;
+      margin-right: 10px;
+      font-weight: bold;
+        top: 2px;
+        position: relative;
+      color: #3c4981!important;
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+    
+    .location-grid {
+      background-color: rgba(223, 223, 223, 0.25);
+      padding: 15px 30px 1px;
+      margin-bottom: 20px;
+    }
+    
+    .form-side label {
+      color: #333;
+      font-size: 16px;
+      font-family: 'Linux Biolinum O' !important;
+    }
+    
+    .form-field h5 {
+      margin-top: 0;
+      font-size: 24px !important;
+      font-family: 'Linux Biolinum O' !important;
+      color: #757575 !important;
+      position: relative;
+    }
+    
+    .usa-select-form {
+      background-repeat: no-repeat;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border: 1px solid #333;
+      background-color: transparent;
+      background-position: right .75rem center;
+      background-size: .5rem;
+      padding-right: 2rem;
+      font-size: 16px;
+      color: #757575;
+      width: 50% !important;
+      margin-bottom: 40px;
+      height: 59px;
+      font-family: 'Linux Biolinum O' !important;
+    }
+    
+    .my-sign-up {
+      max-width: inherit !important;
+      width: 100% !important;
+      display: initial;
+    }
+    
+    .email-form .email-field form button {
+      padding: 0px 80px;
+      font-size: 16px;
+      line-height: 18px;
+      height: 59px;
+      background: #f5c22f;
+      border: #f5c22f;
+      font-family: 'Linux Biolinum O' !important;
+    }
+    
+    .form-side {
+      display: inline-block;
+      width: 46%;
+      margin: 0 20px 10px 20px;
+    }
+    
+    .form-side button {
+      display: inline-block;
+      width: 30%;
+      border: none;
+    
+          background: #f5c22f;
+        border-radius: 0;
+        padding: 15px 20px;
+        font-size: 18px;
+        color: #3c4981;
+        margin-right: 0px;
+        width: auto;
+        font-family: 'Linux Biolinum O' !important;
+        font-weight: bold;
+    }
+    
+    .career-info p {
+      font-size: 17px;
+      line-height: 30px;
+      font-family: 'Linux Biolinum O' !important;
+      margin: 0 0 0px 0;
+      color: #fff;
+    }
+    
+    .career-info a {
+      color: #fff;
+      /*font-weight: bold;*/
+      font-size: 21px;
+      text-decoration: none;
+      font-family: 'Linux Biolinum O' !important;
+    }
+    
+    .drug-policy-bottom-banner {
+      margin-bottom: 150px;
+    }
+    
+    .drug-policy-bottom-banner .sp-agent {
+      margin-top: 20px;
+      background: white;
+      text-align: justify;
+      padding: 25px;
+      height: 525px;
+    }
+    
+    .drug-policy-bottom-banner .grid-row {
+      margin-bottom: -140px;
+      margin-top: 185px;
+    }
+    
+    .drug-policy-bottom-banner h2 {
+      margin-top: 0;
+      font-size: 32px;
+      font-family: 'Linux Biolinum O' !important;
+      color: #3C4981;
+    }
+    
+    
+    
+    .drug-policy-section h2 {
+      margin-top: 0;
+      font-size: 40px;
+      font-family: 'Linux Biolinum O' !important;
+      color: #3C4981;
+    }
+    
+    /*.our_drug_subsection {
+      margin-top: -60px;
+    }*/
+    
+    .employment_disqualifiers_content{
+      background-repeat: no-repeat !important;
+    }
+    /*# sourceMappingURL=style.css.map */
+    
+    ::-webkit-scrollbar {
+      width: 10px;
+      height: 5px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #c6bcba;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #c6bcba;
+    }
+    /*# sourceMappingURL=style.css.map */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .main_menu_hide{
+        display: block;
+    }
+    
+    
+    .mobile-menu{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    /*responsive changes*/
+    
+    
+    @media (min-width: 320px) and (max-width: 767px) {
+        
+      .career-info .usa-opening-links ul li a{
+      line-height: 30px !important;
+    }
+    
+     .carrerEventMainpage p{
+      line-height: 30px !important;
+     }
+    
+      .nearest-job {
+    flex-flow: column !important;
+    float: none !important;
+    }
+        .usa-opening-links ul{
+        text-align: initial !important;
+    }
+      .nearest-job a{
+      font-size: 20px !important;
+    
+    }
+    .apply-usa-job a {
+    font-size: 20px !important;
+    }
+      .nearest-job{
+        margin-top: 10px;
+      }
+      .criminal_investigator_home_block{
+        margin-top: 10px;
+      }
+       .video_height_section{  height: auto!important;
+        background-color: black;
+        margin-top: 120px!important;
+        margin-bottom: 0px;}
+     /*	.slider_section {
+       min-height: 150px !important;
+    }
+    */
+      .opeanings-cards-tabs {
+        width: 49.5%!important;
+    }
+    
+     .tab1 button:hover {
+      background-color: #f5c22f;
+      }
+    
+    .tab1>.tab-setting{
+      background-color: #f5c22f;
+      width: 100%;
+      }
+    
+      .career-tab-details-text h2 {
+    
+        text-align: left;
+    }
+    
+    .career-tab-details-text ul {
+        list-style-type: none;
+        padding-inline-start: 0px;
+    }
+    
+    
+      /* Create an active/current tablink class */
+      .tab1 button.active {
+      background-color: #f5c22f;
+      }
+    
+      .tab1 {
+      text-align: left;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #e7e7e7;
+      display: block!important;
+      }
+    
+      /* Style the buttons inside the tab */
+      .tab1 button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+      font-family: 'Linux Biolinum O' !important;
+      }
+    
+     .opeanings-tab{
+          display: block!important;
+        }
+    
+    
+    
+        .tab{
+          display: none!important;
+        }
+    
+    
+        .career-tab-details-img{
+    
+      width: 100%!important;
+      min-height: 300px;
+      display: inline-block;
+          vertical-align: top;
+      }
+    
+    
+     .career-tab-details-text{
+    
+      width: 100%!important;
+      min-height: 300px;
+      display: inline-block;
+          vertical-align: top;
+              padding-left: 0px;
+      }
+    
+       .career-tab-details-text ul li {
+    
+         text-align: left!important;
+      }
+    
+      .separator-career {
+          display: none!important;
+        }
+    
+    
+    
+       .slider-usa-button-float{
+      display: block!important;
+      padding:  0 20px;
+    }
+    
+        .sp-agent .title-section h2::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        /*left: 50%;*/
+        /*transform: translateX(-50%);*/
+        height: 2px;
+        width: 100px;
+        background-color: #FB9A2D;
+    }
+    
+    .sp-agent .title-section h2::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 2px;
+        width: 40px;
+        background-color: #3C4981;
+    }
+    
+    
+    .mobile-menu{
+        display: none;
+    }
+    .mobile-menu.active{
+        display: block !important;
+    }
+    
+    .mobile-menu ul li a{
+    color: #000!important;
+        text-decoration: none!important;
+        font-family: 'Linux Biolinum O' !important;
+        font-weight: 600!important;
+        line-height: 24px!important;
+        font-size: 14px!important;
+    }
+    
+    .main_menu_hide{
+        display: none;
+    }
+    
+      .criminal_investigator_home_block {
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+    }
+    
+    .usa-hr-email {
+        display: inherit;
+        vertical-align: middle;
+        position: relative!important;
+        right: 0px!important;
+        font-size: 20px;
+        margin-right: 0;
+    }
+    
+      .apply-usa-job{
+        text-align: center!important;
+      }
+    
+    .criminal_investigator_home_block {
+        position: relative!important;
+        bottom: 0px!important;
+        width: 100%!important;
+    }
+    
+    
+      .find-usa-jobs .nearest-job h2 {
+        margin: 0;
+        padding-right: 20px;
+        color: #fff;
+        font-family: 'Linux Biolinum O' !important;
+        font-weight: 600;
+        font-size: 18px;
+        margin: 16px;
+        text-align: center;
+    }
+    
+    .find-usa-jobs .nearest-job form button {
+        margin-right: 0px;
+    }
+    
+    .section-career-events .grid-row.grid-gap > * .career-events button {
+        background-color: #4C4C4C;
+        width: 100%;
+        border-radius: 0;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        padding: 16px!important;
+        text-align: center!important;
+        font-family: 'Linux Biolinum O' !important;
+    }
+    
+    .section-career-events .grid-row.grid-gap > * .career-info {
+        padding: 20px;
+        background: #3c4981;
+        margin-top: 10px;
+        -webkit-box-shadow: inset 1px -20px 11px 0px #00000045;
+        box-shadow: inset 1px -20px 11px 0px #00000045;
+        min-height: 502px !important;
+    }
+    
+    .usa-hero {
+        background-image: url(/profiles/cusssd8_gov/themes/custom/drupal2/assets/img/usa-special-agents.jpg);
+        min-height: 150px;
+        position: relative;
+        margin-top: 125px;
+    }
+    
+    .usa-my-header {
+        background: #3c4981;
+        /*position: fixed;*/
+        z-index: 1;
+        /*top: 55px;*/
+        width: 100%;
+    }
+    #main-content {
+        margin-top: -124px;
+    }
+    .usa-my-banner .grid-container .banner-caption h1 {
+        margin: 0;
+        font-family: 'Linux Biolinum O' !important;
+        font-size: 20px;
+        margin-bottom: 0px;
+        color: #f5c22f;
+    Padding:8px;
+    }
+    
+    .sp-agent .title-section h2 {
+        margin-top: 0;
+        padding-bottom: 30px;
+        font-size: 26px;
+        font-family: 'Linux Biolinum O' !important;
+        color: #3C4981;
+        position: relative;
+    }
+    
+    .sp-agent .title-section h3 {
+        font-size: 22px;
+        font-family: 'Linux Biolinum O' !important;
+        font-weight: bold;
+        color: #3c4981;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    
+    .jjrtc-center {
+        border-left: #FB9A2D 2px solid;
+        padding-left: 20px;
+        margin-top: 0;
+        font-size: 22px;
+        font-family: 'Linux Biolinum O' !important;
+        color: #3C4981;
+        position: relative;
+    }
+    
+    .usa-section {
+        padding-bottom: 0rem !important;
+        padding-top: 2rem !important;
+    }
+    
+    .sp-training-third-section h2 {
+        margin-top: 0;
+        font-size: 22px !important;
+        font-family: 'Linux Biolinum O' !important;
+        color: #3c4981 !important;
+        position: relative;
+    }
+    
+    .phase-1-bg-content {
+        min-height: 200px;
+        position: relative;
+    }
+    
+    .phase-text-2 h4 {
+        font-family: 'Linux Biolinum O' !important;
+        font-size: 22px;
+        color: #f5c22f !important;
+        padding-top: 10px;
+        line-height: 25px;
+        margin: 0 0 0px 20px;
+    }
+    
+    .phase-text-1 h4 {
+        font-family: 'Linux Biolinum O' !important;
+        font-size: 22px;
+        color: #f5c22f !important;
+        padding-top: 10px;
+        line-height: 25px;
+        margin: 0 0 0px 20px;
+    }
+    
+    .h4-sub-head {
+        font-size: 20px;
+        font-family: 'Linux Biolinum O' !important;
+        font-weight: bold;
+        color: #3c4981;
+        -webkit-margin-before: 0em;
+        margin-top: 0em;
+    }
+    
+    .odo_app_img{
+      margin-bottom: 0rem!important;
+    }
+    
+    .UDO-application-process-bg {
+        background-image: url(/profiles/cusssd8_gov/themes/custom/drupal2/assets/img/Banner01.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        margin: 0px 0px 40px 0px;
+        padding: 100px 0px 80px 0px;
+        background-size: cover;
+    }
+    
+    .UDO-application-process-content {
+        padding: 10px 30px;
+        background-color: white;
+        min-height: auto;
+        margin-bottom: 15px;
+    }
+    
+    .split-1 {
+        padding: 20px 0px 0px 0px;
+        margin-right: 20px;
+    }
+    
+    .our_drug_subsection {
+        margin-top: 0px;
+    }
+    
+    
+    .drug-policy-section h2 {
+        margin-top: 0;
+        font-size: 22px;
+        font-family: 'Linux Biolinum O' !important;
+        color: #3C4981;
+    }
+    
+    .drug-policy-bottom-banner h2 {
+        margin-top: 0;
+        font-size: 22px;
+        font-family: 'Linux Biolinum O' !important;
+        color: #3C4981;
+    }
+    
+    .drug-policy-bottom-banner .sp-agent {
+        margin-top: 22px;
+        background: white;
+        text-align: justify;
+        padding: 25px;
+        height: auto!important;
+    }
+    
+    .drug-policy-bottom-banner .grid-row {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+    
+    .drug-policy-bottom-banner {
+        margin-bottom: 50px;
+    }
+    
+    .background-investigation-bg {
+        background-image: url(/profiles/cusssd8_gov/themes/custom/drupal2/assets/img/background-investi-info-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 0px;
+        margin-bottom: 4rem;
+    }
+    
+    
+    .Sub_title {
+        font-size: 22px;
+        font-family: 'Linux Biolinum O' !important;
+        font-weight: bold;
+        color: #3c4981;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    
+    
+    .vertical-img-center img {
+        position: relative;
+        -webkit-transform: initial;
+        transform: initial;
+    }
+    
+    
+    .division_officer_about_bg {
+        background-image: url(/profiles/cusssd8_gov/themes/custom/drupal2/assets/img/about-history.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+    }
+    
+    .division_officer_histort {
+        margin-top: auto;
+        background-color: white;
+        padding: 25px 50px 10px 50px;
+        -webkit-box-shadow: 0 0px 20px 0 rgba(0,0,0,0.1);
+        box-shadow: 0 0px 20px 0 rgba(0,0,0,0.1);
+    }
+    
+    .division_Officer_bg_color {
+        background-color: rgba(255,255,255,0.9);
+        padding: 30px 40px 10px 40px;
+    }
+    
+    .diversity-overview-section h3 {
+        margin-top: 0;
+        font-size: 20px !important;
+        font-family: 'Linux Biolinum O' !important;
+        color: #FB9A2D !important;
+        position: relative;
+    }
+    
+    .usa-footer {
+        padding: 0px 0 30px;
+        background-color: #666666;
+        text-align: center;
+        height: 300px!important;
+    }
+    
+    .usa-footer .footer-flex .footer-logo {
+        margin-right: 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .find-a-usa-jobs .nearest-location form input {
+      padding: 10px;
+      background: #fff;
+      font-family: sans-serif;
+      font-weight: bold;
+      color: #333 !important;
+      border: 1px solid #c2c4d5;
+      font-size: 12px;
+      font-family: 'Linux Biolinum O' !important;
+      height: 46px;
+      width: 220px!important;
+      margin-right: 10px;
+      margin-bottom: 20px;
+    }
+    
+    .see-more {
+        position: relative!important;
+        bottom: 0px!important;
+    }
+    
+    .find-a-usa-search .search-location form button {
+        line-height: 18px;
+        background: #f5c22f;
+        border: #f5c22f;
+        font-family: 'Linux Biolinum O' !important;
+        height: 46px;
+        margin-right: 0px;
+        margin-top: 10px;
+        font-weight: bold;
+        top: 2px;
+        position: relative;
+        color: #3c4981!important;
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+    
+    .find-a-usa-search .search-location form input {
+        padding: 10px;
+        background: #fff;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: #333 !important;
+        border: 1px solid #c2c4d5;
+        font-size: 16px;
+        font-family: 'Linux Biolinum O' !important;
+        height: 46px;
+        width: 100%!important;
+        margin-right: 0px!important;
+    }
+    
+    .find-a-usa-search{
+      margin-top: 30px!important;
+    }
+    
+    
+    }
+    
+    h3 {
+        font-size: 32px;
+        font-family: 'Linux Biolinum O' !important;
+        font-weight: bold;
+        /* color: #3c4981; */
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    
+    .apply-usa-job a{
+    font-family: 'Linux Biolinum O' !important;
+    }
+    
+    
+    @media (min-width: 1490px) and (max-width: 3000px) {
+    
+      .special-agents {
+        background-image: url(/profiles/cusssd8_gov/themes/custom/drupal2/assets/img/special-agent-banner.png);
+        min-height: 675px;
+        position: relative;
+        margin-top: 94px;
+    }
+    
+    .usa-hero {
+      background-image: url(../assets/img/usa-special-agents.jpg);
+      min-height: 675px;
+        position: relative;
+        margin-top: 94px;
+    }
+    
+      .usa-menu-wrapper{
+        background: linear-gradient(to right, #3c4981 0%,#3c4981 50%,#f5f5f5 50%,whitesmoke 50%,whitesmoke 100%);
+    }
+    #menu-wrapper .all-menu {
+        min-height: inherit;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        max-width: 1420px;
+        margin: 0 auto;
+    }
+    #menu-wrapper {
+        max-width: 100%;
+        right: 0;
+        padding: 0;
+        margin: 0 auto;
+    }
+    }
+    
+    
+    
+    .usa-skipnav {
+        z-index: 9999;
+        line-height: .40;
+        left: 0;
+        padding: 0.5rem 1rem;
+    
+    }
+    
+    .career-info p{
+    font-size: 17px;
+        line-height: 30px;
+        font-family: 'Linux Biolinum O' !important;
+        margin: -7px 0 0px 0;
+        color: #fff;
+        display: inline;
+    }
+    
+    
+    
+    
+    
+    
+    .usa-hr-email p{
+    color: #f5c22f;
+        font-size: 18px;
+        text-decoration: none;
+        font-family: 'Linux Biolinum O' !important;
+    }
+    
+    
+    .usa-hr-email a{
+    color: #fff;
+        font-size: 18px;
+        text-decoration: none;
+        font-family: 'Linux Biolinum O' !important;
+    }
+    
+    .criminal_investigator_home_block{
+    position: absolute;
+        bottom: -20px;
+        width: 87%;
+    
+    
+    }
+    
+    
+    .career_info_h4{
+        font-size: 24px!important;
+        margin-top: 0;
+        color: #f5c22f!important;
+        font-family: 'Linux Biolinum O' !important;
+        -webkit-margin-before: 0em;
+        margin-top: 0em!important;
+        -webkit-margin-after: 0em !important;
+        margin-bottom: 0em !important;
+        padding-bottom: 10px;
+    
+    }
+    
+    .career-info h5{
+         margin-top: 0px;
+        margin-bottom: 0.5em;
+        color: white;
+        font-family: 'Linux Biolinum O' !important;
+        font-size: 22px;
+    }
+    
+    
+    .pdf_content_responsive{
+      width: 1240px;
+      padding:0px 50px 20px 50px;
+    }
+    
+    
+    .item-list h3{
+      text-align: center;
+        margin: 125px;
+    }
+    
+    
+    .my_search h3{
+      text-align: inherit !important;
+        margin: 0px !important;
+    }
+    
+    
+    :focus {
+      /* You can remove this to use the browser's defaults */
+      outline: #06f auto 2px;
+    }
+    
+    body.using-mouse :focus {
+      outline: none;
+    }
+    
+    
+    
+    .find-a-usa-search .search-location form input {
+        padding: 10px;
+        background: #fff;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: #333 !important;
+        border: 1px solid #c2c4d5;
+        font-size: 16px;
+        font-family: 'Linux Biolinum O' !important;
+        height: 46px;
+        width: 91%;
+        margin-right: 10px;
+    }
+    
+    .find-a-usa-search .search-location form button {
+        line-height: 18px;
+        background: #f5c22f;
+        border: #f5c22f;
+        font-family: 'Linux Biolinum O' !important;
+        height: 46px;
+        margin-right: 10px;
+        font-weight: bold;
+        top: 2px;
+        position: relative;
+        color: #3c4981!important;
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+    
+    .pdf_content_responsive li{
+      font-size: 21px;
+    }
+    
+    
+    
+    
+    
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    
+    .banner-caption{
+    display:table;
+    min-height:inherit !important;
+    }
+    
+    .banner-caption h1{
+    display:table-cell;
+    vertical-align:bottom;
+    }
+    
+    
+    /*@media all and (-ms-high-contrast:none), all and (-ms-high-contrast:active)*/
+    .min-height-menu {
+        min-height: 100vh !important;
+        margin-top: 40px;
+    }
+    
+    .custom-clasess{
+      display: inline!important;
+    }
+    
+    /*media all*/
+    .menu-card figure a .menu-image img {
+        position: relative;
+        top: 60px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    /*media all*/
+    .menu-card figure.active a .menu-image img {
+        position: relative;
+        top: 60px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    /*media all*/
+    #menu-wrapper .all-menu aside {
+        max-width: 450px;
+        background: #3c4981;
+        min-height: inherit;
+        padding: 50px 20px 20px 20px;
+        width: 100%;
+    }
+    
+    
+    
+         }
+    
+    
+    
+    
+         @media (max-width:667px){
+    /*     		.slider_section {
+       min-height: 150px !important;
+    }*/
+    .contact-us {
+    background-color: #3c4981;
+    color: #FFFFFF;
+    text-align: center;
+}
+    .menu-card figure.active {
+        display: inline;
+    }
+    
+    .menu-card figure {
+        display: inline;
+    }
+    
+    .slider-usa-button-float{
+      display: none;
+    }
+    
+    
+    
+         }
+    
+    
+    
+         @media (max-width:568px) and (min-width: 320px){
+    .slider_section {
+        min-height: 145px!important;
+     }
+    }
+    
+    
+    
+    
+         @media (max-width:812px){
+    .slider_section {
+        min-height: 180px!important;
+    }
+    
+    
+    
+    .opeanings-cards-tabs {
+        width: 49%!important;
+    }
+    
+            .opeanings-cards{
+         width: 100%;
+    }
+    
+    
+          .tab1 button:hover {
+      background-color: #f5c22f;
+      }
+    
+    .tab1>.tab-setting{
+      background-color: #f5c22f;
+      width: 100%;
+      }
+    
+      .career-tab-details-text h2 {
+    
+        text-align: left;
+    }
+    
+    .career-tab-details-text ul {
+        list-style-type: none;
+        padding-inline-start: 0px;
+    }
+    
+    
+      /* Create an active/current tablink class */
+      .tab1 button.active {
+      background-color: #f5c22f;
+      }
+    
+      .tab1 {
+      text-align: left;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #e7e7e7;
+      display: block!important;
+      }
+    
+      /* Style the buttons inside the tab */
+      .tab1 button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+      font-family: 'Linux Biolinum O' !important;
+      }
+    
+    
+    
+    
+        .tab{
+          display: none!important;
+        }
+    
+    
+        .career-tab-details-img{
+    
+      width: 100%!important;
+      min-height: 300px;
+      display: inline-block;
+          vertical-align: top;
+      }
+    
+    
+     .career-tab-details-text{
+    
+      width: 100%!important;
+      min-height: 300px;
+      display: inline-block;
+          vertical-align: top;
+              padding-left: 0px;
+      }
+    
+       .career-tab-details-text ul li {
+    
+         text-align: left!important;
+      }
+    
+      .separator-career {
+          display: none!important;
+        }
+    
+    
+    
+    .slider-usa-button-float{
+      display: none;
+    }
+    
+    .usa-hero__caption p{
+    display: none;
+    
+    }
+    
+    .criminal_investigator_home_block {
+    position: relative;
+    bottom: -20px;
+    width: 87%;
+    }
+    
+    .see-more {
+    position: relative;
+    bottom: 0px;
+    }
+    
+    .section-career-events .grid-row.grid-gap > * .career-info .usa-opening-links .see-more {
+    position: relative;
+    bottom: 0px;
+    }
+    
+    .flexslider .flex-direction-nav .flex-next{
+    display: none;
+    }
+    
+    .flexslider .flex-direction-nav .flex-prev{
+    display: none;
+    }
+    
+    
+    .usa-hero__caption h2 {
+        font-size: 24px;
+    }
+    
+    .agent-images .img-2 {
+        display: inline-block;
+        margin-top: 0px;
+        width: 50%;
+    }
+    
+    .agent-images .img-1 {
+        display: inline-block;
+        /* text-align: center; */
+    }
+    
+    .h4-sub-head{
+            margin-bottom: 1em;
+    }
+    
+    
+    .usa-my-banner .grid-container .banner-caption h1 {
+        margin: 0;
+        font-family: 'Linux Biolinum O' !important;
+        font-size: 20px;
+        margin-bottom: 0px;
+        color: #f5c22f;
+    Padding:8px;
+    }
+    
+    .main_menu_hide{
+        display: block;
+    }
+    
+    .mainmenu_innerimg {
+        width: 70px;
+    }
+    
+    
+    
+    .menu-card figure a .menu-label p {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: 'Linux Biolinum O' !important;
+        font-size: 14px;
+        line-height: 26px;
+        margin: 0;
+        font-weight: 600;
+    }
+    
+    .menu-card figure.active a .menu-label p {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: 'Linux Biolinum O' !important;
+        font-size: 14px;
+        line-height: 26px;
+        margin: 0;
+        font-weight: 600;
+    }
+    
+    
+    
+    .usa-fitness-details .usa-accordion__heading button[aria-expanded="true"]::before {
+        display: none;
+    }
+    
+    .usa-fitness-details .usa-accordion__heading button[aria-expanded="true"]::after {
+          display: none;
+    }
+    
+    .agent-information {
+        border: 1px solid #c9c9c9;
+        padding: 30px 5px;
+    }
+    
+    .section-menu {
+        padding: 10px 5px;
+        width: 100%;
+        background: #f5f5f5;
+    }
+    
+    
+    
+    }
+    
+    
+    
+    
+    .home-featured-block{
+      background-color: #4C4C4C;
+        width: 100%;
+        border-radius: 0;
+        font-size: 26px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        padding: 16px;
+        color: white;
+        text-align: left;
+        font-family: 'Linux Biolinum O' !important;
+    }
+    
+    
+    .slider-usa-button-float{
+      display: none;
+    }
+    
+    
+    .slide-btn-one{border-radius: 0;
+        margin-bottom: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 18px;
+        color: #f5c22f;
+        background: #3c4981;
+        font-family: 'Linux Biolinum O' !important;
+        padding: 15px 20px;
+        border: 2px solid #3c4981;}
+    
+    .slide-btn-two{
+      background-color: transparent!important;
+        border: 2px solid #3c4981!important;
+        color: #3c4981!important;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        min-width: 160px;
+        font-family: 'Linux Biolinum O' !important;
+        padding: 15px 20px;
+    }
+    
+    .slide-btn-three{
+      border-radius: 0;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 18px;
+        margin-bottom: 10px;
+        font-family: 'Linux Biolinum O' !important;
+        padding: 15px 20px;
+        background: #f5c22f!important;
+        border: 2px solid #f5c22f!important;
+        color: #3c4981!important;
+    }
+    
+    
+    
+    
+    /*career-tab-pannel*/
+    
+    
+    /* Style the tab */
+    .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+    }
+    
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+    }
+    
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ddd;
+    }
+    
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #ccc;
+    }
+    
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+      background-color: #f5f5f5;
+    }
+    
+    
+    
+    
+    
+    
+    
+    /*career-tab-pannel*/
+    
+    
+    /* Style the tab */
+    .tab {
+      text-align: left;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #e7e7e7;
+      }
+    
+      /* Style the buttons inside the tab */
+      .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+      font-family: 'Linux Biolinum O' !important;
+      }
+    
+      /* Change background color of buttons on hover */
+      .tab button:hover {
+      background-color: #f5c22f;
+      }
+    
+      /* Create an active/current tablink class */
+      .tab button.active {
+      background-color: #f5c22f;
+      }
+    
+      /* Style the tab content */
+      .tabcontent {
+      display: none;
+      padding: 6px 0px;
+      border: 1px solid #ccc;
+      border-top: none;
+      }
+    
+      .tab-settings{
+       /* width: 19%;*/
+        display: inline-flex;
+      }
+    
+      .tab-settings-text-img{
+        display: inline-block;
+        font-size: 16.8px;
+            font-weight: 900;
+      }
+    
+      .career-tab-details-img{
+    
+      width: 60%;
+      min-height: 200px;
+      display: inline-block;
+          vertical-align: top;
+      }
+    
+    
+     .career-tab-details-text{
+      background-color: #3c4981;
+      width: 39%;
+      min-height: 200px;
+      display: inline-block;
+          vertical-align: top;
+              padding-left: 30px;
+              min-height: 466px;
+      }
+    
+      .career-tab-details-text ul li a{
+    
+         color: #fff;
+        text-decoration: none;
+        font-family: 'Linux Biolinum O' !important;
+        font-weight: 600;
+        line-height: 30px;
+        font-size: 16px;
+      }
+    
+      .career-tab-details-text ul{
+    
+       list-style-type: none;
+       padding-inline-start: 20px;
+      }
+
+    
+      .career-tab-details-text h2{
+    
+        color: #f5c22f;
+        margin:20px 0 0 20px;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: 'Linux Biolinum O' !important;
+        font-weight: 600;
+      }
+    
+    
+    .separator-career {
+          content: '';
+          display: inline-block;
+          background: #ccc;
+          margin: 0px 0px 0px 0px;
+          width: 1px;
+        }
+    
+        .tab1{
+          display: none;
+        }
+    
+    
+    
+    .opeanings-cards{
+         width: 30%;
+        background-color: #ffffff;
+        padding: 20px 30px;
+        -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow:0 0 20px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
+        display: inline-block;
+        vertical-align: top;
+        margin: 20px 19px;
+        min-height: 144px;
+    }
+    
+    
+    .opeanings-cards h4{
+      font-size: 21px;
+        font-family: 'Linux Biolinum O' !important;
+        line-height: 24px;
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        color: #000;
+        font-weight: normal;
+    }
+    
+    
+    .opeanings-cards h5{
+      font-size: 21px;
+        font-family: 'Linux Biolinum O' !important;
+        line-height: 24px;
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        color: #000;
+        font-weight: normal;
+    }
+    
+    .opeanings-cards-tabs{
+    width: 49.85%;
+    }
+    
+    .opeanings-cards-tabs button{
+    width: 100%;
+    }
+    
+    
+    
+    .video_section{
+      height: 665px;
+    }
+    
+    
+    
+    .opeanings-tab {
+      text-align: left;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #e7e7e7;
+      }
+    
+      /* Style the buttons inside the tab */
+      .opeanings-tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+      font-family: 'Linux Biolinum O' !important;
+      }
+    
+      /* Change background color of buttons on hover */
+      .opeanings-tab button:hover {
+      background-color: #f5c22f;
+      }
+    
+      /* Create an active/current tablink class */
+      .opeanings-tab button.active {
+      background-color: #f5c22f;
+      }
+    
+    
+      @media (min-width: 1300px) and (max-width: 1359px) {
+              .slider_section {
+       min-height: 500px !important;
+    }
+    
+    
+    .menu-card figure.active {
+        display: inline-block;
+        margin: 20px 10px 20px 0px;
+    }
+    
+    .menu-card figure {
+        display: inline-block;
+        margin: 20px 10px 20px 0px;
+    }
+    
+      }
+    
+    
+    
+    
+    #menu-wrapper .all-menu aside ul{
+        margin-block-start: 0em;
+            margin-top: -13px;
+    }
+    
+    .slider_section{
+      min-height: 520px;
+    }
+    
+    
+    
+    
+    .career-events-details-section{
+          background-color: #f5f5f5;
+    }
+    
+    
+    
+    .career-events-details-text {
+      background-color: #ffffff;
+        padding: 20px 30px;
+        -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0 0 20px rgba(0,0,0,0.07);
+        box-shadow: 0 0 20px rgba(0,0,0,0.07);
+        display: inline-block;
+        vertical-align: top;
+            min-height: inherit!important;
+    }
+    
+    
+    
+    
+    
+    
+    .usa-hero-jobs-pdf {
+        background-image: url(../assets/img/job-Opening-min.png);
+            min-height: 485px;
+        position: relative;
+        margin-top: 42px;
+            background-position: top;
+        background-size: cover;
+    }
+    
+    /*.usa-accordion__button__bg-color{
+      background-color: #f6f6f6!important;
+    }
+    */
+    .application_process_tab{
+    
+        padding: 20px 15px 10px 28px;
+        min-height: 465px;
+    
+    }
+    
+    .application_process_content_bgcolor
+    {
+    background-color: rgba(245, 245, 245, 0.89)!important;
+    
+    }
+    
+    .application_process_tab span{
+          vertical-align: top;
+        margin-left: 15px;
+    }
+    
+    .pdf-usa-li ul li {
+        max-width: 100%;
+        font-size: 21px;
+        font-family: 'Linux Biolinum O' !important;
+        line-height: 35px;
+        margin: 0 0 16px 0;
+        color: #000000;
+    
+    }
+    .pdf-usa-li ol li {
+        max-width: 100%;
+        font-size: 21px;
+        font-family: 'Linux Biolinum O' !important;
+        line-height: 35px;
+        margin: 0 0 16px 0;
+        color: #000000;
+    
+    }
+    
+    
+    
+    .application-process-text-new {
+        background-color: #3c4981;
+        color: white!important;
+        width: 39%;
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 0px;
+        min-height: 466px;
+        height: 465px;
+        overflow: auto;
+    }
+    
+    
+    .application-process-text-new p {
+        color: white!important;
+        margin: 0 0 18px 0;
+        line-height: 30px!important;
+    
+    
+    }
+    
+    
+    
+    @media (max-width: 370px) and (min-width: 320px){
+    /*	.slider_section {
+       min-height: 150px !important;
+    }*/
+       .career-info .usa-opening-links ul li a{
+      line-height: 30px !important;
+    }
+    
+     .carrerEventMainpage p{
+      line-height: 30px !important;
+     }
+      .nearest-job {
+    flex-flow: column !important;
+    float: none !important;
+    }
+        .usa-opening-links ul{
+        text-align: initial !important;
+    }
+        .video_height_section{  height: auto!important;
+        background-color: black;
+        margin-top: 120px!important;
+        margin-bottom: 0px;}
+    
+    .usa-my-header .social-icon-wrapper img {
+        width: 20px!important;
+        margin: 0 3px;
+    }
+    
+    #extended-logo {
+        display: inline-block;
+        max-width: initial;
+        width: 25px!important;
+    }
+    
+    #menu-btn {
+        position: relative;
+        margin-left: 6px!important;
+    }
+    
+    .menu-card figure.active a .menu-label {
+        background: #fff;
+        padding: 10px;
+        color: #000;
+        font-size: 14px;
+        min-width: 230px;
+        min-height: inherit;
+    }
+    
+    .menu-card figure a .menu-label {
+        background: #cfcfcf;
+        padding: 10px;
+        color: #000;
+        font-size: 14px;
+        min-width: 230px;
+        min-height: inherit;
+    }
+    
+    .menu-card figure a .menu-label p {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: 'Linux Biolinum O' !important;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0;
+        font-weight: 600;
+    }
+    }
+    
+    /*iPhone 5 in portrait only*/
+    @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 568px)
+    and (orientation : portrait )
+     {
+      .slider_section {
+        min-height: 138px!important;
+        }
+    }
+    
+    /*iPhone 5 in landscape only*/
+    @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 568px)
+    and (orientation : landscape) {
+        /* CSS here */
+         .usa-button-float{
+          display: none !important;
+        }
+        .slider-usa-button-float{
+          display: block !important;
+        }
+    }
+    
+    /*iPhone 6/7/8 in landscape only*/
+    
+    @media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px)
+    and (orientation : landscape) {
+         .usa-button-float{
+          display: block !important;
+        }
+        .slider-usa-button-float{
+          display: none !important;
+        }
+    }
+    
+    /*iPhone 6/7/8 plus in landscape only*/
+    
+    @media only screen
+    and (min-device-width : 414px)
+    and (max-device-width : 736px)
+    and (orientation : landscape) {
+         .usa-button-float{
+          display: block !important;
+        }
+        .slider-usa-button-float{
+          display: none !important;
+        }
+    }
+    
+    
+    /*iPhone X in portrait only*/
+    /*@media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 812px)
+    and (orientation : landscape )
+     {
+      .slider_section {
+        min-height: 320px!important;
+      }
+    }
+    */
+    
+    
+    /*iPad in landscape*/
+    
+    @media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : landscape) {
+        .slider_section {
+        min-height: 418px!important;
+    }
+    
+      .opeanings-cards-tabs{
+    width: 49.83%;
+    }
+    
+     .career-info .usa-opening-links ul li a{
+      line-height: 30px !important;
+     }
+     .carrerEventMainpage p{
+      line-height: 30px !important;
+     }
+    .section-career-events .grid-row.grid-gap > * .career-info .usa-opening-links .see-more {
+        position: absolute;
+        bottom: 50px!important;
+    }
+    
+    .see-more {
+        position: absolute;
+        bottom: 50px!important;
+    }
+    
+    .career-info p {
+        display: block!important;
+    }
+    .criminal_investigator_home_block p{
+      display: inline-block!important;
+    }
+    .usa-hr-email {
+         margin-left: 40px!important;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative!important;
+        font-size: 20px;
+        margin-right: 0;
+    
+    }
+    .criminal_investigator_home_block {
+       /* position: absolute;
+        bottom: 44px;*/
+        width: 87%;
+     }
+      .section-career-events .grid-row.grid-gap > * .career-info{
+        min-height: 500px !important;
+      }
+    
+    }
+    
+    /*iPad in portrait*/
+    
+    
+    @media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : portrait) {
+        .slider_section {
+         min-height: 310px!important;
+    }
+     .opeanings-cards-tabs{
+    width: 49.83%;
+    }
+     .career-info .usa-opening-links ul li a{
+      line-height: 30px !important;
+     }
+     .carrerEventMainpage p{
+      line-height: 30px !important;
+     }
+    .section-career-events .grid-row.grid-gap > * .career-info .usa-opening-links .see-more {
+        position: absolute;
+        bottom: 50px!important;
+    }
+    
+    .see-more {
+        position: absolute;
+        bottom: 50px!important;
+    }
+    
+    .career-info p {
+        display: block!important;
+    }
+    .criminal_investigator_home_block p{
+      display: inline-block!important;
+    }
+    .usa-hr-email {
+         margin-left: 40px!important;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative!important;
+        font-size: 20px;
+        margin-right: 0;
+    
+    }
+    .criminal_investigator_home_block {
+       /* position: absolute;
+        bottom: 44px;*/
+        width: 87%;
+     }
+      .section-career-events .grid-row.grid-gap > * .career-info{
+        min-height: 400px !important;
+      }
+      .section-career-events .grid-row.grid-gap > * .mob-ab{
+        min-height: 575px !important;
+      }
+      .criminal_investigator_home_block{
+        bottom: -4px !important;
+      }
+      .opeanings-cards-tabs{
+        width: 49.75% !important;
+      }
+    
+    
+     }
+    
+    /*iPad-pro in landscape*/
+    @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape){
+     .slider_section {
+        min-height: 525px;
+    }
+     .opeanings-cards-tabs{
+    width: 49.83%;
+    }
+     .career-info .usa-opening-links ul li a{
+      line-height: 30px !important;
+     }
+     .carrerEventMainpage p{
+      line-height: 30px !important;
+     }
+    
+    .section-career-events .grid-row.grid-gap > * .career-info .usa-opening-links .see-more {
+        position: absolute;
+        bottom: 50px!important;
+    }
+    
+    .see-more {
+        position: absolute;
+        bottom: 50px!important;
+    }
+    
+    .career-info p {
+        display: block!important;
+    }
+    .usa-hr-email {
+        display: inline-block;
+        vertical-align: middle;
+        position: relative!important;
+        right: 0px!important;
+        font-size: 20px;
+        margin-right: 0;
+    
+    }
+    .criminal_investigator_home_block {
+       /* position: absolute;
+        bottom: 44px;*/
+        width: 87%;
+     }
+      .criminal_investigator_home_block{
+        position: absolute !important;
+        bottom: 30px !important;
+        text-align: center !important;
+    
+      }
+      .section-career-events .grid-row.grid-gap > * .career-info{
+        min-height: 500px !important;
+      }
+      .section-career-events .grid-row.grid-gap > * .career-events button{
+       font-size: 22px !important;
+    }
+    
+    
+    }
+    /*iPad-pro in portrait*/
+    @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait){
+     .slider_section {
+         min-height: 418px!important;
+    }
+     .opeanings-cards-tabs{
+    width: 49.83%;
+    }
+     .career-info .usa-opening-links ul li a{
+      line-height: 30px !important;
+     }
+     .carrerEventMainpage p{
+      line-height: 30px !important;
+     }
+    
+    .section-career-events .grid-row.grid-gap > * .career-info .usa-opening-links .see-more {
+        position: absolute;
+        bottom: 50px!important;
+    }
+    
+    .see-more {
+        position: absolute;
+        bottom: 50px!important;
+    }
+    
+    .career-info p {
+        display: block!important;
+    }
+    .usa-hr-email {
+        display: inline-block;
+        vertical-align: middle;
+        position: relative!important;
+        right: 0px!important;
+        font-size: 20px;
+        margin-right: 0;
+    
+    }
+    .criminal_investigator_home_block {
+       /* position: absolute;
+        bottom: 44px;*/
+        margin-left: -10px;
+        width: 87%;
+     }
+     .criminal_investigator_home_block{
+        position: absolute !important;
+        bottom: 20px !important;
+        text-align: center !important;
+      }
+       .section-career-events .grid-row.grid-gap > * .career-info{
+        min-height: 400px !important;
+      }
+    }
+    
+    
+    @media (min-width: 1920px) and (max-width: 2560px)  {
+    
+    .usa-my-banner .grid-container .banner-caption h1 {
+        margin: 0;
+        font-family: 'Linux Biolinum O' !important;
+        font-size: 50px;
+        margin-bottom: 00px;
+        color: #f5c22f;
+        Padding: 20px 20px 20px 356px;
+    }
+    
+    
+    /*	.immedate-Banner-img{
+        background-position-x: 0px;
+    }*/
+    
+        .slider_section {
+        min-height: 737px !important;
+            }
+       .main_menu_hide1{
+       padding: 50px 40px 10px 35px  !important;
+       }
+    
+    .main-menu-h3{
+      /*text-transform: none !important;
+        font-size: 42px !important;
+        margin-top: -14px !important;*/
+        text-transform: none !important;
+        font-size: 53px !important;
+        margin-top: 12px !important;
+    }
+    
+    }
+    
+    .video_height_section{
+     /*height: 665px; */
+    
+        background-color: black;
+        margin-top: 0px;
+        margin-top: 95px;
+    
+        margin-bottom: 0px;
+    }
+    
+    .apply-usa-job a {
+        background: #f5c22f;
+        border-radius: 0;
+        padding: 15px 20px;
+        font-size: 21px;
+        color: #000;
+        margin-right: 0px;
+        width: auto;
+        font-family: 'Linux Biolinum O' !important;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+    }
+    .nearest-job a{
+        background: #f5c22f;
+        border-radius: 0;
+        padding: 15px 20px;
+        font-size: 21px;
+        color: #000;
+        margin-right: 0px;
+        width: auto;
+        font-family: 'Linux Biolinum O' !important;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+    
+    }
+    
+    .nearest-job{
+      float: right;
+    }
+    .carrerEventMainpage p{
+        display: block !important;
+        font-size: 18px !important;
+        line-height: 35px;
+        margin: 0px 0 0px 0;
+    }
+    
+    
+    .main-menu-h3{
+      text-transform: none;
+      font-size: 54px;
+      margin-top: -14px;
+      font-family: 'Linux Biolinum O' !important;
+      font-weight: 600;
+      min-height: 64px;
+      color: #f5c22f;
+    }
+    .main_menu_hide1{
+     padding: 50px 40px 10px 30px;
+         max-width: 375px;
+        background: #3c4981;
+        min-height: inherit;
+    
+        width: 100%;
+    
+    }
+    
+    .immedate-Banner-img{
+        background-position-x: -675px;
+    }
+    .modal{
+      margin-top: 3%!important;
+    }
+    .modal1{
+      margin-top: 3%!important;
+    }
+    .modal2{
+      margin-top: 3%!important;
+    }
+    .modal3{
+      margin-top: 3%!important;
+    }
+    .career_tab_link{
+      min-width: 220px !important;
+    }
+    
+    .application-process-text-new p {
+        color: white!important;
+        margin: 0 0 18px 0;
+        line-height: 30px!important;
+        display: flex!important;
+        align-items: center!important;
+    }
+    .application_process_tab img{
+      min-width:30px !important;
+    }
+    .carousel_control_buttons{
+         width: 15px;
+        height: 15px;
+    }
+    .btn-xs{
+      background-color: transparent;
+      border: none;
+    }
+    .flex-control-nav{
+        display: none;
+    }
+    
+    .able .able-vidcap-container {
+        background-color: #000 !important;
+        left: 0!important;
+        margin: 0!important;
+        position: relative!important;
+        top: 0!important;
+        right: 0!important;
+        width: 100%!important;
+         /*height: 665px !important;*/
+    }
+    .able{
+      margin-top: 0px !important;
+    }
+    .icon-play{
+      display: none !important;
+    }
+    #video_baneer_main{
+      height: 665px !important;
+    }
+    
+    
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 0px ;
+    }
+    
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 100%;
+        background-color: #555555;
+        color: #fff;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px 10px;
+        position: absolute;
+        z-index: 1;
+        font-size: 15px;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+    }
+    
+    span.tooltiptext:after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent #555 transparent;
+        z-index: 11;
+    }
+    
+    .close3 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: -42px;
+    right: 0;
+    }
+    .ab_menu_tabs{
+      outline: #2491ff solid 0.25rem !important;
+      padding: 2px;
+    }

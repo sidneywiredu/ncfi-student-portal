@@ -1,0 +1,925 @@
+/* NCFI styles */
+
+/* =Font definitions
+---------------------------------------------------*/
+@font-face {
+    font-family: "Linux Biolinum Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Linux Biolinum Regular"), url("../fonts/linux_biolinum/LinBiolinum_R.woff") format("woff");
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: local("Source Sans Pro"), url("../fonts/source-sans-pro/sourcesanspro-regular-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "Linux Biolinum O";
+    src: local("Linux Biolinum O"), url("../fonts/custom-fonts/LinBiolinum_R.svg") format("svg");
+	src: local("Linux Biolinum O"), url("../fonts/custom-fonts/LinBiolinum_R.ttf") format("truetype");
+}
+
+.skip{
+	height:1px;
+	left:-1000px;
+	overflow:hidden;
+	position:absolute;
+	width:1px;
+}
+
+/* =Heading overrides
+---------------------------------------------------*/
+h1, h2, h3, h4 {
+	font-family: "Linux Biolinum Regular";
+	font-weight:500;
+	padding-bottom:0;
+	color:#3c4981
+}
+h1 {
+	font-size:1.4em
+}
+h2 {
+	font-size:1.5em;
+	margin:.9em 0 2em;
+}
+h3,.fc-toolbar h2 {
+	font-size:1.3em;
+	margin:.2em 0;
+	font-weight:600
+}
+
+/* =Form overrides
+---------------------------------------------------*/
+fieldset, .ui-fieldset {
+	border:none;
+    padding:0;
+}
+legend, .ui-legend {
+	display:none
+}
+
+/* =White background for splash page */
+.splash {
+	background: #fefefe;
+}
+
+/* =Classes for government banner at top of site
+---------------------------------------------------*/
+.gov-banner {
+    background: #F0F0F0;
+    padding:0 1em;
+    border:0;
+    line-height:inherit;
+}
+
+.gov-banner .ui-panel-title {
+    font-size:.75em;
+    color: #222;
+    margin: 0 0 0 .5em
+}
+.gov-banner .ui-panel-title:hover {
+    color:#b00000
+}
+.gov-banner .usa-banner {
+    background: inherit;
+    cursor:default;
+}
+.gov-banner .ui-panel-titlebar {
+    background: inherit;
+    background-image: url("../images/us_flag_small.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    border: 0;
+    cursor:pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 60rem;
+}
+.gov-banner .ui-panel-content {
+    padding:0
+}
+.gov-banner .ui-panel-titlebar-icon {
+    /* display:none !important */
+    border:0;
+    background:none !important
+}
+.gov-banner .ui-panel-titlebar-icon a {
+    background: green;
+    border:0 !important
+}
+.gov-banner .ui-panel-titlebar-icon span.ui-icon-plusthick,
+.gov-banner .ui-panel-titlebar-icon span.ui-icon-minusthick {
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    content: "";
+    vertical-align: middle;
+    margin-left: 2px;
+}
+.gov-banner .ui-panel-titlebar-icon span.ui-icon-plusthick {
+    background: url(../images/expand_more.svg) no-repeat center/1rem 1rem;}
+.gov-banner .ui-panel-titlebar-icon span.ui-icon-minusthick {
+    background: url(../images/expand_less.svg) no-repeat center/1rem 1rem;
+}
+
+/* =header links
+---------------------------------------------------*/
+.header-links {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+    max-width: 100em;
+    background: #3c4981;
+    padding: 1px;
+}
+.header-links ul {
+	display:block;
+    text-align: left;
+}
+.header-links ul li, .footer-links ul li {
+	display: inline-block;
+    padding: 0 10px 0 5px;
+    line-height: 12px;
+}
+
+.header-links ul li:last-child, .footer-links ul li:last-child {
+	border-right:none
+}
+.header-links ul li a {
+	display: inline-block;
+    padding: 0;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 13px;
+    text-transform: uppercase;
+    font-family: 'Linux Biolinum O';
+    text-decoration: none;
+    font-weight: 600;
+}
+.header-links ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.yellow_btn {
+	background: #ffd478 !important;
+    color: #3c4981 !important;
+}
+.blue_btn {
+	/* background:#3c4981 !important; */
+	color:#3c4981 !important;
+    font-weight: bold;
+}
+.ncfi_button-container a.header_btn i {
+	font-size:1.4em;
+	margin-right:.2em
+}
+
+/* =Footer logo
+---------------------------------------------------*/
+.usa-footer .footer-flex .footer-logo {
+	margin-top:.5em
+}
+
+/* =Footer links overrides  */
+.footer-links ul li a {
+	font-weight:600;
+	font-size:12px
+}
+.footer-links ul li {
+	border-right:1px solid #fff;
+}
+
+/* =Banner overrides  */
+.usa-my-header #extended-logo {
+	float:left;
+	margin:0 1.7em 0 0;
+}
+.usa-my-header .usa-logo img {
+    width: 135px;
+    position: absolute;
+    top:.2em
+}
+
+/* =Paragraph style
+---------------------------------------------------*/
+p {
+    line-height: 21px;
+    font-family: "Source Sans Pro";
+    /* font-size:1.1em vr */
+}
+
+/* =USSS Brand text
+---------------------------------------------------*/
+.usssText {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -.8em;
+    left: 1em;
+    color: #fff;
+    display: inline;
+    font-family: "Linux Biolinum O";
+    font-weight: normal;
+}
+
+/* =Master container
+---------------------------------------------------*/
+.ncfi_container {
+    margin: 1em auto;
+    padding: 0;
+    max-width: 94em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c4981;
+}
+
+/* =Banner container */
+.ncfi_banner {
+    color: #FFFFFF;
+    width: 100%;
+    background-color: #3c4981;
+    background-image: url(../images/ncfi_header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 60%;
+    height: 6em;
+    padding-top: .5em
+}
+
+/* =Banner title */
+.grid-container {
+	color:#FFFFFF;
+	/* font-family: "Linux Biolinum Regular"; */
+    padding-top: 15px;
+    height: 150px;
+}
+.grid-container h1 {
+    font-family: "Linux Biolinum Regular";
+    font-weight: 100;
+    font-size: 1.3em !important;
+    color: #FFFFFF;
+    display: inline-block;
+    margin: .9em 0 0;
+}
+
+.grid-container h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: .5em;
+}
+
+/* =Vertical bar*/
+.grid-container .bar {
+    width: 1px;
+    height: 1.5em;
+    float: left;
+    margin: 1.65em .7em 0;
+    border: 0;
+    background: #FFFFFF;
+}
+
+/* Banner title acronym */
+.grid-container span {
+    /* margin:.2em 0 0; */
+    /* float: left; */
+    font-size: 2.5em;
+  
+}
+
+/* =NCFI logo
+---------------------------------------------------*/
+.ncfi_banner img {
+    position: relative;
+    left: 360px;
+    width: 9em;
+    height: auto;
+}
+.ncfi_banner img.home-logo {
+	left: 150px;
+}
+
+/* =Gradient and line at bottom of banner */
+.line,.gradient { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* =Gold line at bottom of header */
+.line { 
+    height: .1em;
+    background-color: #e0c480;
+}
+
+/* =Gradient at bottom of banner */
+.gradient {
+  height: .6em;
+  background-color: #3c4980; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #3c4980 , #1d1d1d);
+}
+
+/* =Content contains intro paragraph and image
+---------------------------------------------------*/
+.ncfi_content {
+    margin: 1em 0;
+    /* font-size:1.1em */
+    /* display: grid;
+	display: -ms-inline-flexbox;
+    grid-template-columns: auto auto;
+    grid-gap: 20px; */
+}
+
+/* =Content intro paragraph */
+.ncfi_content p {
+    /* margin-top: 1.5em; */
+    /* font-size: 1.11em; */
+    line-height: 24px;
+    padding: 0 1em 40px;
+    
+}
+
+/* =Content image */
+.ncfi_content img {
+    /* width: 100%; */
+    height: auto;
+    margin-top: 1.5em;
+}
+
+/* =Enter site button */
+.ncfi_buttons {
+    margin: 4em 0;
+}
+
+/* =Grid containing cards at the bottom */
+.ncfi_gridContainer {
+    display: grid;
+	display: -ms-inline-flexbox;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1px;
+    padding:0;
+    margin: 0 1em
+}
+
+/* =Grid cards
+---------------------------------------------------*/
+.ncfi_gridContainer > div {
+    background-color: #f3f3f3;
+    min-height: 20em;
+    padding: .5em;
+    position: relative;
+    margin: .2em;
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
+    -webkit-box-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
+	-ms-flex-preferred-size: 20em
+}
+.ncfi_gridContainer > div:hover {
+    background-color: #d5d9dc;
+}
+.ncfi_gridContainer .vertSpacer {
+	min-height: 22em;
+}
+.ncfi_gridContainer p i {
+	font-size: 3em;
+	margin-top:.7em;
+	color: #3c4981;
+}
+.ncfi_gridContainer div table {
+	width: 100%;
+}
+.ncfi_gridContainer div table td {
+	padding: 0 0 1em; 
+}
+
+/* =Grid cards horizontal rule */
+.ncfi_gridContainer > div hr {
+    border-top: 3px solid #ffd378;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 80%;
+    margin-bottom: 1em
+}
+
+/* =Grid container header */
+.ncfi_gridContainer h3 {
+    margin: 1em 0;
+    padding: 0;
+    font-weight:600
+}
+
+/* =Grid cards paragraph */
+.ncfi_gridContainer p {
+    min-height: 10em;
+    font-size: 1.1em;
+    color: #3c4981  
+}
+
+/* =Grid cards date formatting */
+.ncfi_gridContainer p span {
+    font-size: .9em;
+}
+
+/* =Button styles for all buttons
+---------------------------------------------------*/
+.ncfi_button-container {
+    margin:.7em 0 .5em;
+    display:block;
+    font-size:.8em;
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+    padding-bottom: 20px;
+}
+.ncfi_button-container a{
+	padding:1em 1.5rem;
+	font-size:1em !important
+}
+.ncfi_button-container button {
+	padding:.5rem 1rem
+}
+.ncfi_button-container a, .ncfi_button-container button {
+    /* background:#3c4981;
+    color: #fff; */
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
+    -webkit-box-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
+    border-radius: .25rem;
+    width: auto;
+    font-family: Source Sans Pro;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 5em;
+    /* border:0 !important */
+    border: 2px solid #3c4981;
+}
+.ncfi_button-container a:hover, .ncfi_button-container button:hover  {
+    background-color: #3c4981 !important;
+	color: #fff !important;
+    text-decoration: none;
+}
+
+/* =Larger button for Enter NCFI Site
+---------------------------------------------------*/
+.ncfi_button-container a.ncfi_buttonLarge {
+    padding: 1rem 2.5rem;
+}
+
+/* =Footer link to NCFI
+---------------------------------------------------*/
+.footerLink a {
+    color: #FFFFFF;
+    margin: 2em 0 0;
+    display: inline-block;
+    text-decoration: none
+}
+.footerLink a:hover {
+    text-decoration: underline
+}
+
+/* =Layout
+---------------------------------------------------*/
+.marginNone{
+	margin:0 !important
+}
+.paddingNone{
+	padding:0 !important
+}
+.alignmentLeft {
+	text-align:left
+}
+.alignmentRight {
+	text-align:right
+}
+.alignmentTop {
+	vertical-align:top
+}
+.floatRight {
+    float: right;
+}
+.floatLeft {
+    float: left;
+}
+.block {
+	display:block
+}
+
+/* =Messaging
+---------------------------------------------------*/
+.messageContainer {
+	font-size:.7em;
+	max-width:80em;
+	margin:4em auto 0;
+	padding:1em;
+	border-left:1em solid red;
+	background:#ffeeee
+}
+.messageContainer i {
+	float:left;
+	margin:.2em .4em .2em 0;
+	font-size:4em;
+}
+/* =Chryon styles
+---------------------------------------------------*/
+.ncfi-chyron {
+	background-color:#f0f3fd;
+	border: none;
+	margin:2em 0 0;
+	padding:0
+	}
+.ncfi-chyron .ui-widget-content {
+	background-color:inherit;
+	padding:.5em 0.5em 1.5em 1em
+	}
+.ncfi-chyron .button-container {
+	margin: auto 0;
+}
+.ncfi-chyron button {
+	background: none !important;
+	border: none !important;
+	color:#6c6c6c !important;
+	}
+.ncfi-chyron button:active {
+	background:none !important;
+	color:#edc604 !important;
+	}
+.ncfi-chyron button:hover {
+	color:#3c4981 !important;
+	}
+.ncfi-chyron button:focus {
+	outline:none !important
+	}
+.ncfi-chyron button span {
+	height: auto !important;
+	}
+.ncfi-chyron .message-group {
+	 margin:0 auto;
+	 width:80%;
+	}
+.ncfi-chyron .summary {
+	font-weight:600;
+	}
+.ncfi-chyron p {
+	background-color:inherit !important;
+	color:#444;
+	display:none;
+	font-size: .7em;
+    font-family: sans-serif !important;
+    font-weight: normal;
+    margin:0;
+	width:100% !important
+	}
+.ncfi-chyron .ui-dialog-title {
+	font-family: sans-serif !important;
+	font-size: .7em;
+	}
+.ncfi-chyron .ui-dialog-content p {
+	display:block !important
+	}
+.ncfi-chyron p i {
+	margin-right:1em
+	}
+.ncfi-chyron p a {
+    font-family: inherit;
+    font-size: .9em !important;
+    font-weight: 600
+	}
+#manuelSwitcher {
+	width:auto !important
+	}
+.ncfi-chyron-switch {
+	color: #d66f10 !important;
+	font-family: FontAwesome !important;
+	font-size:1.1em !important;
+	outline:none !important;
+	text-decoration: none !important;
+	position: relative;
+    top: 0.1em;
+}
+.ncfi-chyron-switch:hover {
+	color: #3c4981 !important;
+}
+
+/* =Spacer to be displayed when no message is available
+---------------------------------------------------*/
+.noMessage {
+	height: 3em
+}
+
+/* =Lock icon in secure dropdown
+---------------------------------------------------*/
+.usa-banner__lock-image {
+	height: 3ex;
+    width: 3.218ex;
+}
+
+/* =Dotted outline for active links
+---------------------------------------------------*/
+.usa-focus, [contentEditable=true]:focus, [href]:focus, [tabindex]:focus, button:not([disabled]):focus, 
+iframe:focus, input:not([disabled]):focus, select:not([disabled]):focus, textarea:not([disabled]):focus {
+    outline: .15rem dotted #fff;
+}
+.usa-banner__button::after {
+    background: url(../images/expand_more.svg) no-repeat center/1rem 1rem;
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    content: "";
+    vertical-align: middle;
+    margin-left: 2px
+}
+.usa-banner__button[aria-expanded=true]::after {
+    background: url(../images/expand_less.svg) no-repeat center/1rem 1rem;
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    content: "";
+    vertical-align: middle;
+    margin-left: 2px
+}
+.usa-banner__button[aria-expanded=true]:hover::after {
+	background: url(../images/expand_less.svg) no-repeat center/1rem 1rem;
+}
+.usa-media-block__body p {
+    font-size: .9em;
+}
+
+/* =Star divider below page title */
+.star-divider {
+	width:40%
+}
+
+/* =Homepage styles
+---------------------------------------------------*/
+.home-image {
+	margin: 0 1em .5em 0;
+    max-width: 14em;
+}
+
+/* =Course page overrides
+---------------------------------------------------*/
+form[id="courseForm"] div.ui-datatable-header {
+	display:none
+}
+form[id="courseForm"] p {
+	margin: 0 3em .2em
+}
+form[id="courseForm"] table tbody tr td > span {
+	line-height:3.5
+}
+
+/* =Course dialogs
+---------------------------------------------------*/
+.viewCourse div[class="ui-grid-row"] div {
+	padding:0 1em 1em 0
+}
+
+/* =Contact page styles
+---------------------------------------------------*/
+.contact span {
+	margin-right:1em
+}
+.contact span i {
+	margin-right:.25em
+}
+
+/* =News page styles
+---------------------------------------------------*/
+.news-col1 {
+	padding:.5em 1em;
+}
+.news-col2, .news-col2 p {
+	padding:0
+}
+
+/* =Theme overrides styles
+---------------------------------------------------*/
+
+.ui-widget-header {
+    background:#3c4981;
+    color:#fff;
+    font-weight:normal
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	background:#3c4981 !important
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background:#ebebeb
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover {
+	background:#dadada
+}
+
+/* =Testimonials styles
+---------------------------------------------------*/
+.testimonialQuote p {
+	margin: 0 0 3em
+}
+.testimonialQuote p span {
+	font-size:.9em;
+	line-height:1.3em;
+	display:block;
+	font-style:italic
+}
+
+/* =Partners styles
+---------------------------------------------------*/
+.partner-list {
+	list-style:none;
+	padding:0;
+	margin:0;
+	columns:2;
+	-webkit-columns:2;
+	-moz-columns:2
+}
+
+
+.partner-list li img {
+	height:80px;
+	width:auto
+}
+
+/* =Mobile layout
+---------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+	.header-links {
+    margin-left:6.5em;
+}
+	.ncfi_container {
+	padding: 0 10px
+}
+}
+@media (min-width: 1200px) {
+	
+}
+@media (max-width: 1024px) {
+.usa-my-header #extended-logo {
+    margin: 0 2.7em 0 0;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1290px) {
+	.usa-my-header .usa-logo a img {
+    width: 135px;
+}
+	.header-links {
+    text-align:center;
+}
+.ncfi_button-container a.header_btn {
+	margin-top:.3em;
+    margin-right:0;
+    padding:.3rem .7rem
+}
+}
+
+@media (max-width: 639px) {
+.usa-banner__button::after {
+	top:-1.3em
+}
+.usa-banner__header--expanded .usa-banner__header-action {
+	display:block
+}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .usa-banner__button::after {
+        float: right;
+        position: relative;
+        /* top:-1.5em */
+    }
+
+    .usa-banner__header-action {
+        font-size: 1em
+    }
+
+    .grid-container, .grid-container-card {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .usa-my-header {
+        text-align: center;
+        padding: 1.5em 0 0
+    }
+
+    .usa-my-header #extended-logo {
+        width: 100% !important;
+        float: none;
+        margin: 0;
+    }
+
+    .usa-my-header .usa-logo a {
+        width: 160px;
+    }
+
+    .usa-my-header .usa-logo img {
+        width: 25%;
+        position: unset
+    }
+
+    .grid-container span {
+        margin: 0;
+        float: none;
+        font-size: 2.5em;
+        position: relative;
+        top: -.5em;
+        display: block
+    }
+
+    .grid-container .bar {
+        display: none
+    }
+
+    .grid-container h1 {
+        font-size: 1.1em !important;
+        margin: 0;
+        position: relative;
+        top: -1.8em
+    }
+
+    .ncfi_button-container {
+        width: 100%;
+        float: none
+    }
+
+    .ncfi_button-container a {
+        margin-right: 0 !important;
+        width: 60%
+    }
+
+    .header-links {
+        text-align: center
+    }
+
+    .header-links ul {
+        padding-inline-start: 0
+    }
+
+    .ncfi_container {
+        margin: 3em auto
+    }
+
+    .ncfi_gridContainer {
+        padding: 0;
+    }
+
+    .ncfi_gridContainer > div {
+        margin: .7em 0
+    }
+
+    .footer-links ul {
+        margin: 0 0 .5em 0
+    }
+
+    .home-image {
+        margin: 0 0 1em;
+        max-width: unset
+    }
+
+    /* =Course layout */
+    form[id="courseForm"] table tbody tr td > span {
+        line-height: unset
+    }
+
+    form[id="courseForm"] p {
+        margin: 0 0 .2em
+    }
+
+    .partner-list {
+        list-style: none;
+        padding: 0 1em;
+        margin: 0;
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+    }
+}
+		
+/* @media (max-width:768px){
+NCFI hide elements
+.ncfi_banner img {
+    display: none;
+}
+Content image
+.ncfi_container {
+margin: 7em auto 3em;
+}
+.ncfi_content img {
+    width: 100%;
+    height: auto;
+    margin: 1em 0;
+}
+Grid containing cards at the bottom
+.ncfi_gridContainer {
+    display: contents;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 0 30px;
+}
+Content contains intro paragraph and image
+.ncfi_content {
+    margin: 2em 0;
+    display: contents;
+}
+.ncfi_content p {
+    padding: 0 1em;
+}
+} */
